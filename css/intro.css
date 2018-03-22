@@ -1,0 +1,37 @@
+#header
+{
+    display:none;
+}
+
+#page
+{
+	background: none;
+	border: none;
+	margin-bottom: none;
+	margin:none;
+	box-shadow: none;
+}
+
+#content
+{
+	background:none;
+	border:none;
+}
+
+#mainmenu{display:none}
+
+.disable
+{
+	display: none;
+}
+
+#barra
+{
+    background: rgba(255, 255, 255, 1);
+    border-bottom:2px solid #e43539;
+    padding:3px;    
+    top:0;
+    display:block;
+    max-width: 100%;
+    height: auto;    
+}

@@ -1,0 +1,2887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: yii-gettext 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-05 10:48-0400\n"
+"PO-Revision-Date: 2017-12-05 10:49-0400\n"
+"Last-Translator: Dylan <dylan@kanux.org>\n"
+"Language-Team: psilly <dylan@psilly.com>\n"
+"Language: es_VE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: components/WebUser.php:24 views/site/login.php:182
+#: views/site/login_2.php:182
+msgid "Log In"
+msgstr "Iniciar Sesión"
+
+#: components/WebUser.php:54 views/layouts/main.php:7
+#: views/layouts/main2.php:7
+msgid "Home"
+msgstr "Inicio"
+
+#: controllers/CiudadController.php:184 controllers/CiudadController.php:190
+#: views/categoria/_form.php:14 views/categoria/_form.php:19
+#: views/categoria/_form.php:155 views/competencia/_form.php:97
+#: views/competencia/_form.php:109 views/competencia/_form.php:115
+#: views/competencia/_form.php:405 views/competencia/_form.php:567
+#: views/franquiciado/_form.php:14 views/franquiciado/_form.php:18
+#: views/inscripcion/_form.php:300 views/pago/_form.php:71
+#: views/perfil/perfilmenu.php:29 views/perfil/perfilmenu.php:99
+#: views/site/_registroUsuario.php:87 views/site/login.php:436
+#: views/site/login.php:449 views/site/login.php:496 views/site/login.php:507
+#: views/site/login.php:513 views/usuario/_form.php:117
+#: views/usuario/_form.php:129 views/usuario/_form.php:135
+msgid "Select..."
+msgstr "Seleccione..."
+
+#: controllers/FranquiciadoAprobacionController.php:60
+#: models/Franquiciado.php:90 models/FranquiciadoDesembolso.php:93
+#: models/OrganizacionRonda.php:92 views/backstage/_listado_categoria.php:102
+#: views/backstage/_listado_general.php:84
+#: views/backstage/_listado_inscripcion.php:68
+#: views/backstage/_listado_inscripcion.php:97 views/backstage/index.php:58
+#: views/calificacion/_listado_categoria.php:48
+#: views/calificacion/_listado_categoria.php:108
+#: views/calificacion/_listado_inscripcion.php:68
+#: views/calificacion/_listado_inscripcion.php:97
+#: views/calificacion/orden.php:64 views/dj/_listado_general.php:68
+#: views/dj/index.php:57 views/franquiciado/_listado_categoria.php:73
+#: views/franquiciado/_listado_categoria.php:178
+#: views/franquiciado/_listado_categoria_1.php:73
+#: views/franquiciado/_listado_categoria_1.php:175
+#: views/franquiciado/_listado_inscripcion.php:94
+#: views/franquiciado/_listado_inscripcion.php:220
+#: views/franquiciado/_wallet.php:188 views/franquiciado/_wallet.php:296
+#: views/franquiciado/index.php:75 views/franquiciadoDesembolso/index.php:51
+#: views/inscripcion/_form.php:206 views/juez/_listado_general.php:68
+#: views/juez/calificacion.php:57 views/layouts/main.php:18
+#: views/layouts/main2.php:23 views/musica/_listado_categoria.php:70
+#: views/musica/_listado_inscripcion.php:90
+#: views/musica/_listado_inscripcion.php:185 views/musica/index.php:57
+#: views/ordenLista/_listado_categoria.php:63
+#: views/ordenLista/_listado_categoria.php:147 views/ordenLista/index.php:57
+#: views/organizacionRonda/_eliminatoria.php:115
+#: views/organizacionRonda/_final.php:115
+#: views/organizacionRonda/_listado_inscripcion.php:90
+#: views/organizacionRonda/_semifinal.php:115 views/pago/_listado_pase.php:71
+#: views/reporte/_listado_categoria.php:59
+#: views/reporte/_listado_competencia.php:77 views/usuario/_historial.php:193
+#: views/usuario/_historial.php:283 views/usuario/_historial.php:450
+msgid "Competition"
+msgstr "Competencia"
+
+#: controllers/FranquiciadoAprobacionController.php:61
+#: views/franquiciado/_wallet.php:299
+#: views/franquiciadoDesembolso/index.php:54 views/usuario/_historial.php:116
+msgid "Registration date"
+msgstr "Fecha de Registro"
+
+#: controllers/FranquiciadoAprobacionController.php:62
+#: views/franquiciado/_wallet.php:303
+msgid "Request"
+msgstr "Solicitud"
+
+#: controllers/FranquiciadoAprobacionController.php:63
+msgid "Approval date"
+msgstr "Fecha de aprobación"
+
+#: controllers/FranquiciadoAprobacionController.php:64
+#: controllers/PagoController.php:62 models/Bloque.php:61
+#: models/Categoria.php:82 models/Escuela.php:61 models/Franquiciado.php:91
+#: models/ItemCalificacion.php:61 models/Menu.php:66
+#: models/OrganizacionRonda.php:100 models/Perfil.php:63 models/Reporte.php:58
+#: models/Usuario.php:202 views/acreditado/index.php:69
+#: views/franquiciadoDesembolso/index.php:56 views/usuario/_historial.php:805
+msgid "Status"
+msgstr "Estatus"
+
+#: controllers/FranquiciadoAprobacionController.php:97
+#: views/acreditado/index.php:67 views/acreditado/index.php:198
+#: views/musica/_listado_inscripcion.php:97
+#: views/musica/_listado_inscripcion.php:192
+msgid "Validate"
+msgstr "Validar"
+
+#: controllers/FranquiciadoAprobacionController.php:101
+#: controllers/FranquiciadoAprobacionController.php:108
+#: models/CompetenciaCategoria.php:67 models/Franquiciado.php:93
+#: models/Inscripcion.php:104 models/Inscripcion2.php:104
+#: views/franquiciado/_wallet.php:328
+#: views/franquiciadoDesembolso/index.php:82
+#: views/franquiciadoDesembolso/index.php:108
+#: views/musica/_listado_categoria.php:74
+#: views/musica/_listado_inscripcion.php:177 views/reporte/index.php:38
+#: views/reporte/index.php:168
+msgid "Validated"
+msgstr "Validado"
+
+#: controllers/FranquiciadoAprobacionController.php:105
+msgid "By Validate"
+msgstr "Validar"
+
+#: controllers/InscripcionController.php:139
+#: controllers/InscripcionController.php:148
+#: controllers/InscripcionController.php:300
+#: controllers/InscripcionController.php:309
+msgid "You must add more participants"
+msgstr "Debes agregar más participantes"
+
+#: controllers/InscripcionController.php:157
+msgid "No user has entered"
+msgstr "Ningún usuario ha ingresado"
+
+#: controllers/OrganizacionRondaController.php:184
+msgid "It's not possible. You must check the schedule"
+msgstr "No es posible. Debe verificar el horario"
+
+#: controllers/OrganizacionRondaController.php:186
+msgid "Feasible"
+msgstr "Factible"
+
+#: controllers/PagoController.php:61 views/categoria/_form.php:55
+#: views/franquiciado/_listado_categoria.php:74
+#: views/franquiciado/_listado_categoria_1.php:74
+#: views/franquiciado/_listado_inscripcion.php:95
+#: views/franquiciado/_wallet.php:189 views/franquiciado/index.php:76
+#: views/pago/_form.php:233 views/pago/view.php:147
+msgid "Items"
+msgstr "Artículos"
+
+#: controllers/UsuarioController.php:151
+msgid "The passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: controllers/UsuarioController.php:156
+msgid "You have to set a password"
+msgstr "Debes establecer una contraseña"
+
+#: controllers/UsuarioController.php:204
+msgid "WIN account activation  - Online Competition System"
+msgstr "Activación de cuenta WIN - Sistema de competencia en línea"
+
+#: controllers/UsuarioController.php:260
+msgid ""
+"We are glad to have you here. Welcome to our WIN - Online Competition System"
+msgstr ""
+"Estamos encantados de contar contigo aquí. Bienvenido a WIN - Sistema de "
+"competencia en línea"
+
+#: controllers/UsuarioController.php:262
+msgid "Count on us for everything you may need!"
+msgstr "¡Cuenta con nosotros para todo lo que necesites!"
+
+#: controllers/UsuarioController.php:267
+msgid "To activate your account click on the button at the bottom"
+msgstr "Para activar su cuenta, haga clic en el botón en la parte inferior"
+
+#: controllers/UsuarioController.php:270
+msgid "Activate user"
+msgstr "Activar usuario"
+
+#: controllers/UsuarioController.php:278 controllers/UsuarioController.php:890
+msgid "WIN - Online Competition System"
+msgstr "WIN - Sistema de competencia en línea"
+
+#: controllers/UsuarioController.php:306
+msgid "We have sent you an email to activate your account."
+msgstr "Le hemos enviado un correo electrónico para activar su cuenta."
+
+#: controllers/UsuarioController.php:426 controllers/UsuarioController.php:506
+msgid "The passwords do not match."
+msgstr "Las contraseñas no coinciden."
+
+#: controllers/UsuarioController.php:533
+msgid "Invalid request. Please do not repeat this request again."
+msgstr "Solicitud no válida. Por favor, no repita esta solicitud nuevamente."
+
+#: controllers/UsuarioController.php:564
+msgid "The requested page does not exist."
+msgstr "La página solicitada no existe."
+
+#: controllers/UsuarioController.php:606
+msgid "This user already has a competitor pass"
+msgstr "Este usuario ya tiene un pase de competidor"
+
+#: controllers/UsuarioController.php:606
+#: views/backstage/_listado_categoria.php:107
+#: views/calificacion/_listado_categoria.php:113
+#: views/musica/_listado_categoria.php:76
+#: views/ordenLista/_listado_categoria.php:69
+#: views/organizacionRonda/_eliminatoria.php:120
+#: views/organizacionRonda/_final.php:120
+#: views/organizacionRonda/_semifinal.php:120
+msgid "Detail"
+msgstr "Detalle"
+
+#: controllers/UsuarioController.php:615 controllers/UsuarioController.php:743
+#: models/Usuario.php:177 views/inscripcion/_form.php:349
+#: views/pago/_form.php:67 views/pago/_form.php:119
+msgid "Identification"
+msgstr "Identificación"
+
+#: controllers/UsuarioController.php:622 controllers/UsuarioController.php:750
+#: views/franquiciado/index.php:256 views/inscripcion/_form.php:302
+#: views/pago/_listado_pase.php:151 views/reporte/_listado_competencia.php:124
+#: views/site/login.php:395
+msgid "Driver License"
+msgstr "Licencia de conducir"
+
+#: controllers/UsuarioController.php:628 controllers/UsuarioController.php:756
+#: views/franquiciado/index.php:262 views/inscripcion/_form.php:304
+#: views/pago/_form.php:75 views/pago/_listado_pase.php:157
+#: views/reporte/_listado_competencia.php:130
+msgid "Passport"
+msgstr "Pasaporte"
+
+#: controllers/UsuarioController.php:639 controllers/UsuarioController.php:767
+#: models/Menu.php:61 models/Perfil.php:62 models/Usuario.php:181
+#: views/reporte/_listado_competencia.php:86 views/usuario/view.php:93
+msgid "Name"
+msgstr "Nombre"
+
+#: controllers/UsuarioController.php:640 controllers/UsuarioController.php:768
+#: models/Usuario.php:183 views/reporte/_listado_competencia.php:87
+msgid "Last Name"
+msgstr "Apellido"
+
+#: controllers/UsuarioController.php:641 controllers/UsuarioController.php:769
+#: models/Franquiciado.php:89 models/Usuario.php:198
+#: views/inscripcion/_form.php:348 views/layouts/main.php:14
+#: views/layouts/main2.php:11 views/pago/_form.php:118 views/pago/view.php:148
+#: views/usuario/view.php:37 views/usuario/view.php:42
+msgid "User"
+msgstr "Usuario"
+
+#: controllers/UsuarioController.php:646 controllers/UsuarioController.php:774
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+#: controllers/UsuarioController.php:655
+msgid "This user does not exist in our data base."
+msgstr "Este usuario no existe en nuestra base de datos"
+
+#: controllers/UsuarioController.php:707
+msgid "The user is already subscribed in this category"
+msgstr "El usuario ya está suscrito en esta categoría"
+
+#: controllers/UsuarioController.php:723 controllers/UsuarioController.php:732
+msgid "The user does not have the allowed age to access this category"
+msgstr "El usuario no tiene la edad permitida para acceder a esta categoría"
+
+#: controllers/UsuarioController.php:783
+msgid "The user does not exist in our data base"
+msgstr "El usuario no existe en nuestra base de datos"
+
+#: controllers/UsuarioController.php:815
+msgid "The email does not exist in our data base"
+msgstr "El correo electrónico no existe en nuestra base de datos"
+
+#: controllers/UsuarioController.php:822
+msgid "Recover WIN account - Online Competition System"
+msgstr "Recuperar cuenta WIN - Sistema de competencia en línea"
+
+#: controllers/UsuarioController.php:879
+msgid "To register your new password click on the button below"
+msgstr "Para registrar su nueva contraseña, haga clic en el botón de abajo"
+
+#: controllers/UsuarioController.php:882
+msgid "Recover Password"
+msgstr "Recuperar contraseña"
+
+#: controllers/UsuarioController.php:915
+msgid "We have sent you an email to recover you password"
+msgstr "Te hemos enviado un correo electrónico para recuperar tu contraseña"
+
+#: controllers/UsuarioController.php:964
+msgid "The password was succesfully changed"
+msgstr "La contraseña fue cambiada con éxito"
+
+#: controllers/UsuarioController.php:965
+msgid "Type your new password"
+msgstr "Escriba su nueva contraseña"
+
+#: controllers/UsuarioController.php:972 controllers/UsuarioController.php:981
+msgid "There was an error updating your password"
+msgstr "Hubo un error al actualizar su contraseña"
+
+#: controllers/UsuarioController.php:973 controllers/UsuarioController.php:982
+#: controllers/UsuarioController.php:991
+msgid "Try again"
+msgstr "Inténtalo de nuevo"
+
+#: controllers/UsuarioController.php:990
+msgid "Your date of birth is not correct"
+msgstr "Tu fecha de nacimiento no es correcta"
+
+#: models/Bloque.php:59
+msgid "Id Block"
+msgstr "Bloque Id"
+
+#: models/Bloque.php:60 views/backstage/_listado_categoria.php:103
+#: views/backstage/_listado_general.php:85
+#: views/backstage/_listado_inscripcion.php:98
+#: views/calificacion/_listado_categoria.php:109
+#: views/calificacion/_listado_inscripcion.php:98
+#: views/franquiciado/_listado_categoria.php:179
+#: views/franquiciado/_listado_categoria_1.php:176
+#: views/franquiciado/_listado_inscripcion.php:221
+#: views/musica/_listado_categoria.php:71
+#: views/musica/_listado_inscripcion.php:91
+#: views/musica/_listado_inscripcion.php:186
+#: views/ordenLista/_listado_categoria.php:64
+#: views/ordenLista/_listado_categoria.php:148
+#: views/organizacionRonda/_eliminatoria.php:116
+#: views/organizacionRonda/_final.php:116
+#: views/organizacionRonda/_listado_inscripcion.php:91
+#: views/organizacionRonda/_semifinal.php:116
+#: views/reporte/_listado_categoria.php:60
+#: views/reporte/_listado_competencia.php:81 views/usuario/_historial.php:194
+#: views/usuario/_historial.php:284 views/usuario/_historial.php:451
+msgid "Block"
+msgstr "Bloque"
+
+#: models/Categoria.php:73 models/Inscripcion.php:89
+#: models/Inscripcion2.php:89
+msgid "Category ID"
+msgstr "Categoria ID"
+
+#: models/Categoria.php:74 views/backstage/_listado_categoria.php:104
+#: views/backstage/_listado_inscripcion.php:68
+#: views/backstage/_listado_inscripcion.php:99
+#: views/calificacion/_listado_categoria.php:110
+#: views/calificacion/_listado_inscripcion.php:68
+#: views/calificacion/_listado_inscripcion.php:99
+#: views/competencia/_form.php:294 views/juez/_form.php:161
+#: views/musica/_listado_categoria.php:72
+#: views/musica/_listado_inscripcion.php:70
+#: views/musica/_listado_inscripcion.php:92
+#: views/musica/_listado_inscripcion.php:187
+#: views/organizacionRonda/_eliminatoria.php:117
+#: views/organizacionRonda/_final.php:117
+#: views/organizacionRonda/_listado_inscripcion.php:69
+#: views/organizacionRonda/_listado_inscripcion.php:92
+#: views/organizacionRonda/_semifinal.php:117
+#: views/reporte/_listado_categoria.php:61
+#: views/reporte/_listado_competencia.php:82 views/usuario/_historial.php:781
+msgid "Category"
+msgstr "Categoria"
+
+#: models/Categoria.php:75 models/Competencia.php:98
+#: models/Franquiciado.php:95 models/FranquiciadoDesembolso.php:95
+#: models/Inscripcion.php:92 models/Inscripcion2.php:92
+#: views/backstage/index.php:59 views/calificacion/orden.php:65
+#: views/competencia/_view.php:35 views/dj/index.php:58
+#: views/franquiciado/_wallet.php:298
+#: views/franquiciadoDesembolso/index.php:53 views/inscripcion/_view.php:11
+#: views/inscripcion/view.php:32 views/juez/calificacion.php:58
+#: views/musica/index.php:58 views/usuario/_historial.php:586
+msgid "Description"
+msgstr "Descripción"
+
+#: models/Categoria.php:76
+msgid "Minimum age"
+msgstr "Edad mínima"
+
+#: models/Categoria.php:77
+msgid "Maximum age"
+msgstr "Edad máxima"
+
+#: models/Categoria.php:78
+msgid "Minimum competitors"
+msgstr "Competidores mínimos"
+
+#: models/Categoria.php:79
+msgid "Maximum competitors"
+msgstr "Máximos competidores"
+
+#: models/Categoria.php:80
+msgid "Category Type ID"
+msgstr "ID de Tipo de Categoría"
+
+#: models/Categoria.php:81
+msgid "Block ID"
+msgstr "ID de Bloque"
+
+#: models/Categoria.php:83 views/competencia/_form.php:346
+msgid "Category Type"
+msgstr "Tipo de categoría"
+
+#: models/Competencia.php:88 views/competencia/_view.php:5
+msgid "Competence Identifier"
+msgstr "Identificador de Competencia"
+
+#: models/Competencia.php:89 views/competencia/_view.php:9
+#: views/inscripcion/view.php:26 views/layouts/main.php:334
+#: views/layouts/main.php:352 views/layouts/main2.php:364
+#: views/layouts/main2.php:382 views/reporte/_listado_pase_competidor.php:37
+#: views/reporte/index.php:36 views/reporte/index.php:166
+#: views/reporte/index_1.php:36 views/site/index.php:17
+#: views/usuario/_historial.php:115 views/usuario/_historial.php:539
+#: views/usuario/_historial.php:579 views/usuario/_historial.php:774
+msgid "Competence"
+msgstr "Competencia"
+
+#: models/Competencia.php:90
+msgid "Event place"
+msgstr "Lugar del evento"
+
+#: models/Competencia.php:91 views/competencia/_view.php:13
+msgid "Visible"
+msgstr "Visible"
+
+#: models/Competencia.php:92 views/competencia/_view.php:24
+#: views/franquiciado/_form.php:22
+msgid "Active"
+msgstr "Estatus"
+
+#: models/Competencia.php:93 views/reporte/_listado_pago.php:81
+#: views/reporte/_listado_pago.php:177
+#: views/reporte/_listado_pase_competidor.php:80 views/reporte/index.php:112
+#: views/reporte/index.php:242 views/reporte/index_1.php:103
+#: views/usuario/_historial.php:700
+msgid "Free"
+msgstr "Gratis"
+
+#: models/Competencia.php:94
+msgid "Logo"
+msgstr "Logo"
+
+#: models/Competencia.php:95 models/CompetenciaCategoria.php:70
+#: models/Usuario.php:211 views/organizacionRonda/_eliminatoria.php:228
+#: views/organizacionRonda/_final.php:228
+#: views/organizacionRonda/_semifinal.php:228
+msgid "Day"
+msgstr "Día"
+
+#: models/Competencia.php:96 models/CompetenciaCategoria.php:69
+#: models/Usuario.php:212 views/organizacionRonda/_eliminatoria.php:219
+#: views/organizacionRonda/_final.php:219
+#: views/organizacionRonda/_semifinal.php:219 views/site/login.php:507
+msgid "Month"
+msgstr "Mes"
+
+#: models/Competencia.php:97 models/CompetenciaCategoria.php:68
+#: models/Usuario.php:213 views/organizacionRonda/_eliminatoria.php:210
+#: views/organizacionRonda/_final.php:210
+#: views/organizacionRonda/_semifinal.php:210 views/site/login.php:513
+msgid "Year"
+msgstr "Año"
+
+#: models/Competencia.php:99 views/competencia/_view.php:39
+msgid "Competence date"
+msgstr "Fecha de Competencia"
+
+#: models/Competencia.php:100 views/competencia/_form.php:149
+#: views/competencia/_form.php:348 views/competencia/_view.php:43
+msgid "Value"
+msgstr "Valor"
+
+#: models/Competencia.php:101 models/CompetenciaCategoria.php:66
+#: models/Inscripcion.php:103 models/Inscripcion2.php:103
+#: views/backstage/_listado_categoria.php:108
+#: views/backstage/_listado_categoria.php:164
+#: views/backstage/_listado_inscripcion.php:103
+#: views/ordenLista/_listado_categoria.php:66
+#: views/ordenLista/_listado_categoria.php:150
+#: views/ordenLista/_listado_categoria.php:174
+#: views/organizacionRonda/_eliminatoria.php:121
+#: views/organizacionRonda/_eliminatoria.php:250
+#: views/organizacionRonda/_final.php:121
+#: views/organizacionRonda/_final.php:250
+#: views/organizacionRonda/_listado_inscripcion.php:96
+#: views/organizacionRonda/_semifinal.php:121
+#: views/organizacionRonda/_semifinal.php:250
+msgid "Order"
+msgstr "Orden"
+
+#: models/CompetenciaCategoria.php:62
+msgid "Id Competence category"
+msgstr "Id Competencia categoria"
+
+#: models/CompetenciaCategoria.php:63
+msgid "Id competence"
+msgstr "Id Competencia"
+
+#: models/CompetenciaCategoria.php:64 models/Inscripcion.php:101
+#: models/Inscripcion2.php:101
+msgid "Price"
+msgstr "Precio"
+
+#: models/CompetenciaCategoria.php:65
+msgid "Id category"
+msgstr "Id Category"
+
+#: models/CompetenciaCategoria.php:71 models/Inscripcion.php:107
+msgid "Reproduced"
+msgstr "Reproducida"
+
+#: models/Escuela.php:59
+msgid "Id School"
+msgstr "ID Escuela"
+
+#: models/Escuela.php:60 views/inscripcion/view.php:36
+#: views/layouts/main.php:19 views/layouts/main2.php:27
+msgid "School"
+msgstr "Escuela"
+
+#: models/Franquiciado.php:88 views/franquiciado/_wallet.php:297
+#: views/franquiciado/index.php:49 views/layouts/main2.php:43
+msgid "Franchisee"
+msgstr "Franquiciado"
+
+#: models/Franquiciado.php:92
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#: models/Franquiciado.php:94 views/layouts/main2.php:30
+msgid "Method of Payment"
+msgstr "Forma de pago"
+
+#: models/Franquiciado.php:96
+msgid "Image"
+msgstr "Imagen"
+
+#: models/Franquiciado.php:97
+msgid "Leader"
+msgstr "Líder"
+
+#: models/FranquiciadoDesembolso.php:98 views/pago/_form.php:234
+msgid "Amount"
+msgstr "Cantidad"
+
+#: models/Inscripcion.php:86 models/Inscripcion2.php:86
+msgid "Subscription ID"
+msgstr "ID de Inscripción"
+
+#: models/Inscripcion.php:87 models/Inscripcion2.php:87
+msgid "Competence ID"
+msgstr "ID de Competencia"
+
+#: models/Inscripcion.php:88 models/Inscripcion2.php:88
+msgid "Competence type ID"
+msgstr "ID del tipo de competencia"
+
+#: models/Inscripcion.php:90 models/Inscripcion2.php:90
+msgid "User ID"
+msgstr "Usuario ID"
+
+#: models/Inscripcion.php:91 models/Inscripcion2.php:91
+msgid "Group"
+msgstr "Grupo"
+
+#: models/Inscripcion.php:93 models/Inscripcion2.php:93
+#: views/backstage/_listado_general.php:89
+#: views/backstage/_listado_inscripcion.php:102
+#: views/calificacion/_listado_inscripcion.php:102
+#: views/franquiciado/_listado_inscripcion.php:225
+#: views/musica/_listado_inscripcion.php:96
+#: views/musica/_listado_inscripcion.php:191
+#: views/organizacionRonda/_listado_inscripcion.php:95
+msgid "Audio"
+msgstr "Audio"
+
+#: models/Inscripcion.php:94 models/Inscripcion2.php:94
+msgid "Place"
+msgstr "Lugar"
+
+#: models/Inscripcion.php:95 models/Inscripcion2.php:95
+msgid "Country code"
+msgstr "Código de país"
+
+#: models/Inscripcion.php:96 models/Inscripcion2.php:96
+msgid "City ID"
+msgstr "Ciudad ID"
+
+#: models/Inscripcion.php:97 models/Inscripcion2.php:97 models/Usuario.php:215
+#: models/Usuario.php:216 views/reporte/_listado_competencia.php:79
+msgid "City"
+msgstr "Ciudad"
+
+#: models/Inscripcion.php:98 models/Inscripcion2.php:98
+msgid "School ID"
+msgstr "ID de Escuela"
+
+#: models/Inscripcion.php:99 models/Inscripcion2.php:99
+msgid "Subscription status ID"
+msgstr "ID de estado de suscripción"
+
+#: models/Inscripcion.php:100 models/Inscripcion2.php:100
+msgid "Subscription date"
+msgstr "Fecha de Inscripción"
+
+#: models/Inscripcion.php:102 models/Inscripcion2.php:102
+msgid "Accredited"
+msgstr "Acreditado"
+
+#: models/Inscripcion.php:105 models/Inscripcion2.php:105
+msgid "QR"
+msgstr "QR"
+
+#: models/Inscripcion.php:106 models/Inscripcion2.php:106
+msgid "Validated Music"
+msgstr "Música Validada"
+
+#: models/Inscripcion.php:108 views/layouts/main2.php:26
+msgid "Qualification"
+msgstr "Calificación"
+
+#: models/Inscripcion.php:109
+msgid "Error"
+msgstr "Error"
+
+#: models/ItemCalificacion.php:59
+msgid "Id Calification item"
+msgstr "ID Elemento de calificacion"
+
+#: models/ItemCalificacion.php:60
+msgid "Item Calification item"
+msgstr "Elemento de calificacion"
+
+#: models/Menu.php:60
+msgid "Menu number"
+msgstr "ID Menú"
+
+#: models/Menu.php:62
+msgid "Route"
+msgstr "Ruta"
+
+#: models/Menu.php:63
+msgid "Father"
+msgstr "Padre"
+
+#: models/Menu.php:64
+msgid "Level"
+msgstr "Nivel"
+
+#: models/Menu.php:65
+msgid "Style"
+msgstr "Estilo"
+
+#: models/OrganizacionRonda.php:93 views/juez/_form.php:78
+msgid "Round"
+msgstr "Ronda"
+
+#: models/OrganizacionRonda.php:94
+msgid "Maximum capacity"
+msgstr "Maxima capacidad"
+
+#: models/OrganizacionRonda.php:95
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: models/OrganizacionRonda.php:96
+msgid "Start time"
+msgstr "Hora de inicio"
+
+#: models/OrganizacionRonda.php:97
+msgid "Final date"
+msgstr "Fecha final"
+
+#: models/OrganizacionRonda.php:98
+msgid "Final hour"
+msgstr "Hora final"
+
+#: models/OrganizacionRonda.php:99
+msgid "Duration by participation"
+msgstr "Duración por participación"
+
+#: models/Perfil.php:61 views/layouts/main.php:12 views/layouts/main2.php:9
+msgid "Profile"
+msgstr "Perfil"
+
+#: models/PerfilMenu.php:60
+msgid "System Profile"
+msgstr "Perfil del Sistema"
+
+#: models/PerfilMenu.php:61
+msgid "System menu"
+msgstr "Menú del Sistema"
+
+#: models/PerfilMenu.php:62 views/bloque/_form.php:18
+#: views/categoria/_form.php:134 views/competencia/_form.php:457
+#: views/escuela/_form.php:27 views/franquiciado/_form.php:86
+#: views/inscripcion/_form.php:461 views/itemCalificacion/_form.php:18
+#: views/perfil/perfilmenu.php:41 views/reporte/_form.php:20
+#: views/usuario/_form.php:223
+msgid "Create"
+msgstr "Crear"
+
+#: models/PerfilMenu.php:63 views/perfil/perfilmenu.php:47
+msgid "Edit"
+msgstr "Editar"
+
+#: models/PerfilMenu.php:64 views/auditField/_search.php:39
+#: views/bloque/_search.php:16 views/categoria/_search.php:28
+#: views/competencia/_search.php:24 views/escuela/_search.php:25
+#: views/franquiciado/_search.php:18 views/inscripcion/_form.php:321
+#: views/itemCalificacion/_search.php:16 views/pago/_form.php:92
+#: views/perfil/perfilmenu.php:53
+msgid "Search"
+msgstr "Buscar"
+
+#: models/PerfilMenu.php:65 views/perfil/perfilmenu.php:59
+msgid "Delete"
+msgstr "Eliminar"
+
+#: models/PerfilMenu.php:66 views/perfil/perfilmenu.php:65
+msgid "Print"
+msgstr "Imprimir"
+
+#: models/Reporte.php:55
+msgid "Report ID"
+msgstr "ID de Reporte"
+
+#: models/Reporte.php:56 views/reporte/_listado_categoria.php:43
+#: views/reporte/_listado_pago.php:53
+#: views/reporte/_listado_pase_competidor.php:23
+msgid "Report"
+msgstr "Reporte"
+
+#: models/Reporte.php:57
+msgid "Type"
+msgstr "Tipo"
+
+#: models/Usuario.php:178 views/usuario/view.php:89
+msgid "Identification number"
+msgstr "Número de Identificación"
+
+#: models/Usuario.php:180
+msgid "User type"
+msgstr "Tipo de usuario"
+
+#: models/Usuario.php:182
+msgid "Middle name"
+msgstr "Segundo nombre"
+
+#: models/Usuario.php:184
+msgid "Second Last Name"
+msgstr "Segundo apellido"
+
+#: models/Usuario.php:185
+msgid "Birthday"
+msgstr "Fecha de Nacimiento"
+
+#: models/Usuario.php:186
+msgid "Gender"
+msgstr "Género"
+
+#: models/Usuario.php:187
+msgid "Observation"
+msgstr "Observación"
+
+#: models/Usuario.php:191
+msgid "Room phone"
+msgstr "Teléfono de la habitación"
+
+#: models/Usuario.php:192 views/reporte/_listado_competencia.php:89
+#: views/site/login.php:462 views/usuario/view.php:101
+msgid "Phone"
+msgstr "Teléfono"
+
+#: models/Usuario.php:193
+msgid "Phone 2"
+msgstr "Teléfono 2"
+
+#: models/Usuario.php:194 views/acreditado/index.php:62
+#: views/reporte/_listado_competencia.php:90 views/usuario/view.php:97
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: models/Usuario.php:195
+msgid "Repeat Email"
+msgstr "Repite el correo electrónico"
+
+#: models/Usuario.php:196
+msgid "Athorization"
+msgstr "Autorización"
+
+#: models/Usuario.php:199
+msgid "Password"
+msgstr "Contraseña"
+
+#: models/Usuario.php:200
+msgid "Id system profile"
+msgstr "Perfil del sistema"
+
+#: models/Usuario.php:201
+msgid "Register date"
+msgstr "Fecha de registro"
+
+#: models/Usuario.php:203
+msgid "Password Status"
+msgstr "Estatus de la Contraseña"
+
+#: models/Usuario.php:205
+msgid "Id Recorder"
+msgstr "Registrador"
+
+#: models/Usuario.php:206
+msgid "Id Society"
+msgstr "Sociedad"
+
+#: models/Usuario.php:207
+msgid "Id State"
+msgstr "Estado"
+
+#: models/Usuario.php:208
+msgid "Id Municipality"
+msgstr "Municipio"
+
+#: models/Usuario.php:209
+msgid "Id Parish"
+msgstr "Parroquia"
+
+#: models/Usuario.php:210
+msgid "Zip code"
+msgstr "Código postal"
+
+#: models/Usuario.php:214 views/layouts/main2.php:17
+#: views/reporte/_listado_competencia.php:78
+msgid "Country"
+msgstr "País"
+
+#: views/acreditado/index.php:43
+msgid "Accreditations"
+msgstr "Acreditaciones"
+
+#: views/acreditado/index.php:50 views/backstage/index.php:50
+#: views/calificacion/orden.php:56 views/dj/index.php:49
+#: views/juez/calificacion.php:49 views/musica/index.php:49
+#: views/ordenLista/index.php:49
+msgid "Competition List"
+msgstr "Lista de competencia"
+
+#: views/acreditado/index.php:58
+msgid "ID user"
+msgstr "ID Usuario"
+
+#: views/acreditado/index.php:59
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#: views/acreditado/index.php:60 views/franquiciado/index.php:180
+#: views/pago/_listado_pase.php:76 views/usuario/_form.php:65
+msgid "Documentation"
+msgstr "Documentación"
+
+#: views/acreditado/index.php:61 views/franquiciado/index.php:181
+#: views/pago/_listado_pase.php:77
+msgid "Name and Last Name"
+msgstr "Nombre y Apellido"
+
+#: views/acreditado/index.php:63
+msgid "Purchase Detail"
+msgstr "Detalle de compra"
+
+#: views/acreditado/index.php:64
+msgid "Result by Items"
+msgstr "Resultado por Artículos"
+
+#: views/acreditado/index.php:65
+msgid "General Result"
+msgstr "Resultado General"
+
+#: views/acreditado/index.php:66 views/acreditado/index.php:188
+msgid "QR code"
+msgstr "Código QR"
+
+#: views/acreditado/index.php:68
+msgid "Detail purchases"
+msgstr "Compras detalladas"
+
+#: views/acreditado/index.php:257
+msgid "Purchase details"
+msgstr "Detalles de la compra"
+
+#: views/acreditado/index.php:305
+msgid "You must enter the QR code"
+msgstr "Debes ingresar el código QR"
+
+#: views/auditField/admin.php:43
+msgid "Audit"
+msgstr "Auditoria"
+
+#: views/auditField/admin.php:47 views/bloque/admin.php:30
+#: views/categoria/admin.php:30 views/competencia/admin.php:33
+#: views/escuela/admin.php:34 views/itemCalificacion/admin.php:31
+#: views/menu/admin.php:34 views/perfil/admin.php:34
+msgid "You may optionally enter a comparison operator"
+msgstr "Opcionalmente puede ingresar un operador de comparación"
+
+#: views/auditField/admin.php:48 views/bloque/admin.php:32
+#: views/categoria/admin.php:32 views/competencia/admin.php:35
+#: views/escuela/admin.php:35 views/itemCalificacion/admin.php:33
+#: views/menu/admin.php:35 views/perfil/admin.php:35
+msgid "or"
+msgstr "o"
+
+#: views/auditField/admin.php:48 views/bloque/admin.php:32
+#: views/categoria/admin.php:32 views/escuela/admin.php:35
+#: views/itemCalificacion/admin.php:33 views/menu/admin.php:35
+#: views/perfil/admin.php:35
+msgid ""
+"at the beginning of each of your search values to specify how the comparison "
+"should be done"
+msgstr ""
+"al comienzo de cada uno de sus valores de búsqueda para especificar cómo se "
+"debe hacer la comparación"
+
+#: views/auditField/admin.php:51 views/bloque/admin.php:35
+#: views/categoria/admin.php:35 views/competencia/admin.php:38
+#: views/escuela/admin.php:38 views/itemCalificacion/admin.php:36
+#: views/menu/admin.php:38 views/perfil/admin.php:38
+msgid "Advanced Search"
+msgstr "Búsqueda Avanzada"
+
+#: views/auditField/view.php:11 views/dj/_listado_general.php:177
+msgid "Back"
+msgstr "Regresar"
+
+#: views/auditField/view.php:15
+msgid "View Audit"
+msgstr "Ver Auditoría"
+
+#: views/auditField/view.php:31
+msgid "Register"
+msgstr "Registrado"
+
+#: views/backstage/_listado_categoria.php:94
+#: views/calificacion/_listado_categoria.php:100
+#: views/ordenLista/_listado_categoria.php:55
+#: views/organizacionRonda/_eliminatoria.php:107
+#: views/organizacionRonda/_final.php:107
+#: views/organizacionRonda/_semifinal.php:107
+msgid "List of Categories"
+msgstr "Lista de Categorías"
+
+#: views/backstage/_listado_categoria.php:105
+#: views/backstage/_listado_inscripcion.php:100
+#: views/calificacion/_listado_categoria.php:111
+#: views/calificacion/_listado_inscripcion.php:100
+#: views/franquiciado/_listado_categoria.php:181
+#: views/franquiciado/_listado_categoria_1.php:178
+#: views/musica/_listado_categoria.php:73
+#: views/musica/_listado_inscripcion.php:94
+#: views/musica/_listado_inscripcion.php:189
+#: views/ordenLista/_listado_categoria.php:67
+#: views/ordenLista/_listado_categoria.php:151
+#: views/organizacionRonda/_eliminatoria.php:118
+#: views/organizacionRonda/_final.php:118
+#: views/organizacionRonda/_listado_inscripcion.php:93
+#: views/organizacionRonda/_semifinal.php:118
+msgid "Number of Registrations"
+msgstr "Cantidad de registros"
+
+#: views/backstage/_listado_general.php:26 views/backstage/index.php:10
+#: views/dj/index.php:10 views/inscripcion/_view.php:7
+#: views/musica/index.php:10 views/ordenLista/_listado_categoria.php:16
+#: views/ordenLista/index.php:10 views/site/index.php:42
+msgid "Competences"
+msgstr "Competencia"
+
+#: views/backstage/_listado_general.php:68
+msgid "Backstage / Competition"
+msgstr "Entre bastidores / Competencia"
+
+#: views/backstage/_listado_general.php:68
+msgid "General Listing"
+msgstr "Listado General"
+
+#: views/backstage/_listado_general.php:76
+#: views/backstage/_listado_inscripcion.php:89
+#: views/calificacion/_listado_inscripcion.php:89
+#: views/musica/_listado_inscripcion.php:82
+#: views/organizacionRonda/_listado_inscripcion.php:82
+msgid "List of Registrations"
+msgstr "Lista de Registros"
+
+#: views/backstage/_listado_general.php:86 views/backstage/index.php:61
+#: views/calificacion/orden.php:67 views/categoria/index.php:12
+#: views/dj/index.php:60 views/franquiciado/_listado_categoria.php:180
+#: views/franquiciado/_listado_categoria_1.php:177
+#: views/franquiciado/_listado_inscripcion.php:96
+#: views/franquiciado/_listado_inscripcion.php:222
+#: views/juez/calificacion.php:60 views/layouts/main.php:16
+#: views/layouts/main2.php:19 views/musica/index.php:60
+#: views/ordenLista/_listado_categoria.php:65
+#: views/ordenLista/_listado_categoria.php:149 views/ordenLista/index.php:60
+#: views/usuario/_historial.php:195 views/usuario/_historial.php:285
+#: views/usuario/_historial.php:452
+msgid "Categories"
+msgstr "Categorías"
+
+#: views/backstage/_listado_general.php:87
+#: views/franquiciado/_listado_inscripcion.php:223
+#: views/usuario/_historial.php:196
+msgid "Group name"
+msgstr "Nombre del grupo"
+
+#: views/backstage/_listado_general.php:88
+#: views/backstage/_listado_inscripcion.php:101
+#: views/calificacion/_listado_inscripcion.php:101
+#: views/franquiciado/_listado_inscripcion.php:224
+#: views/inscripcion/_form.php:280 views/inscripcion/view.php:75
+#: views/musica/_listado_inscripcion.php:95
+#: views/musica/_listado_inscripcion.php:190
+#: views/organizacionRonda/_listado_inscripcion.php:94
+#: views/usuario/_historial.php:197 views/usuario/_historial.php:288
+#: views/usuario/_historial.php:454
+msgid "Participants"
+msgstr "Participantes"
+
+#: views/backstage/_listado_general.php:90 views/usuario/_historial.php:735
+msgid "Play"
+msgstr "Reproducir"
+
+#: views/backstage/_listado_general.php:127
+msgid "0 participants"
+msgstr "0 participantes"
+
+#: views/backstage/_listado_general.php:208
+#: views/ordenLista/_listado_categoria.php:206
+msgid "You must select a competition"
+msgstr "Debes seleccionar una competencia"
+
+#: views/backstage/_listado_general.php:241
+msgid "Do you really want to validate the indicated order?"
+msgstr "¿Realmente quieres validar el orden indicado?"
+
+#: views/backstage/_listado_inscripcion.php:71
+#: views/calificacion/_listado_categoria.php:51
+#: views/calificacion/_listado_inscripcion.php:71
+#: views/calificacion/orden.php:46
+#: views/franquiciado/_listado_categoria.php:51
+#: views/franquiciado/_listado_categoria_1.php:51
+#: views/franquiciado/_listado_inscripcion.php:71
+#: views/musica/_listado_categoria.php:52
+#: views/musica/_listado_inscripcion.php:73
+#: views/organizacionRonda/_listado_inscripcion.php:72
+msgid "To return"
+msgstr "Regresar"
+
+#: views/backstage/index.php:43 views/layouts/main2.php:39
+msgid "Backstage"
+msgstr "Entre Bastidores"
+
+#: views/backstage/index.php:60 views/calificacion/orden.php:66
+#: views/dj/index.php:59 views/juez/calificacion.php:59
+#: views/musica/index.php:59 views/ordenLista/index.php:59
+msgid "Date of the Event"
+msgstr "Fecha del Evento"
+
+#: views/backstage/index.php:62
+msgid "List"
+msgstr "Lista"
+
+#: views/bloque/_form.php:6 views/calificacion/_form.php:6
+#: views/categoria/_form.php:7 views/escuela/_form.php:14
+#: views/franquiciado/_form.php:7 views/reporte/_form.php:6
+msgid "The required fields contain <span class=\"required\">*</span>"
+msgstr ""
+"Los campos obligatorios contienen <span class = \"required \"> * </ span>."
+
+#: views/bloque/_form.php:18 views/escuela/_form.php:27
+#: views/franquiciado/_form.php:86 views/itemCalificacion/_form.php:18
+#: views/perfil/perfilmenu.php:105 views/reporte/_form.php:20
+msgid "Save"
+msgstr "Guardar"
+
+#: views/bloque/admin.php:8 views/bloque/create.php:8
+#: views/bloque/update.php:9 views/bloque/view.php:8
+msgid "Block List"
+msgstr "Lista de Bloques"
+
+#: views/bloque/admin.php:9 views/bloque/create.php:13
+#: views/bloque/index.php:7 views/bloque/update.php:10 views/bloque/view.php:9
+msgid "Create Block"
+msgstr "Crear Bloque"
+
+#: views/bloque/admin.php:26
+msgid "Manage Blocks"
+msgstr "Administrar Bloques"
+
+#: views/bloque/create.php:9 views/bloque/index.php:8
+#: views/bloque/update.php:12 views/bloque/view.php:12
+msgid "Manage Block"
+msgstr "Administrar Bloque"
+
+#: views/bloque/index.php:12 views/layouts/main.php:15
+#: views/layouts/main2.php:18
+msgid "Blocks"
+msgstr "Bloques"
+
+#: views/bloque/update.php:11 views/bloque/view.php:16
+msgid "View Block"
+msgstr "Ver Bloque"
+
+#: views/bloque/update.php:16 views/bloque/view.php:10
+msgid "Update Block"
+msgstr "Actualizar Bloque"
+
+#: views/bloque/view.php:11
+msgid "Delete Block"
+msgstr "Eliminar Bloque"
+
+#: views/bloque/view.php:11 views/categoria/view.php:11
+#: views/competencia/view.php:11 views/franquiciado/view.php:11
+#: views/itemCalificacion/view.php:11 views/menu/view.php:14
+#: views/perfil/view.php:14
+msgid "Are you sure you want to delete this item?"
+msgstr "¿Seguro que quieres eliminar este artículo?"
+
+#: views/calificacion/_listado_categoria.php:48
+#: views/calificacion/_listado_inscripcion.php:68
+#: views/calificacion/orden.php:43
+msgid "Order of Qualifications"
+msgstr "Orden de calificaciones"
+
+#: views/calificacion/admin.php:27
+msgid "Manage Qualification"
+msgstr "Administrar calificación"
+
+#: views/calificacion/create.php:12
+msgid "Create Qualification"
+msgstr "Crear calificación"
+
+#: views/calificacion/index.php:12
+msgid "Grade history"
+msgstr "Historial de calificaciones"
+
+#: views/calificacion/update.php:16
+msgid "Update Qualification"
+msgstr "Calificación de actualización"
+
+#: views/calificacion/view.php:16
+msgid "Detail Qualification"
+msgstr "Calificación detallada"
+
+#: views/categoria/_form.php:51
+msgid "Qualification Items"
+msgstr "Elementos de calificación"
+
+#: views/categoria/_form.php:56
+msgid "Minimum Range"
+msgstr "Rango mínimo"
+
+#: views/categoria/_form.php:57
+msgid "Maximum Range"
+msgstr "Rango Máximo"
+
+#: views/categoria/_form.php:58 views/competencia/_form.php:150
+#: views/competencia/_form.php:295 views/competencia/_form.php:349
+#: views/franquiciado/_listado_categoria.php:185
+#: views/franquiciado/_listado_categoria_1.php:182
+#: views/franquiciado/_listado_inscripcion.php:226
+#: views/franquiciadoDesembolso/index.php:57 views/inscripcion/_form.php:353
+#: views/juez/_form.php:79 views/juez/_form.php:162 views/juez/_form.php:245
+#: views/pago/_form.php:120 views/pago/_listado_pase.php:70
+#: views/pago/_listado_pase.php:112
+msgid "Action"
+msgstr "Acción"
+
+#: views/categoria/_form.php:114 views/competencia/_form.php:236
+msgid "Add items"
+msgstr "Agregar artículos"
+
+#: views/categoria/_form.php:134 views/competencia/_form.php:457
+#: views/inscripcion/_form.php:461 views/inscripcion/_form.php:467
+#: views/usuario/_form.php:223
+msgid "Update"
+msgstr "Actualizar"
+
+#: views/categoria/admin.php:8
+msgid "List Category"
+msgstr "Lista de Categorias"
+
+#: views/categoria/admin.php:9 views/categoria/index.php:7
+#: views/categoria/update.php:10 views/categoria/view.php:9
+msgid "Create Category"
+msgstr "Crear Categoria"
+
+#: views/categoria/admin.php:26 views/categoria/create.php:9
+#: views/categoria/update.php:12
+msgid "Manage Categories"
+msgstr "Administrar Categorías"
+
+#: views/categoria/create.php:8 views/competencia/_form.php:282
+#: views/juez/_form.php:150
+msgid "Categories List"
+msgstr "Lista de categorías"
+
+#: views/categoria/create.php:14
+msgid "Create New Category"
+msgstr "Crear Nueva Categoría"
+
+#: views/categoria/index.php:8 views/categoria/view.php:12
+msgid "Manage Category"
+msgstr "Administrar Categorias"
+
+#: views/categoria/update.php:9
+msgid "Category List"
+msgstr "Lista de Categorias"
+
+#: views/categoria/update.php:11
+msgid "Category Details"
+msgstr "Detalle Categoria"
+
+#: views/categoria/update.php:16
+msgid "Update Categories"
+msgstr "Actualizar Categoria"
+
+#: views/categoria/view.php:8
+msgid "List Categories"
+msgstr "Lista de Categorias"
+
+#: views/categoria/view.php:10
+msgid "Update Category"
+msgstr "Actualizar Categorias"
+
+#: views/categoria/view.php:11
+msgid "Delete Category"
+msgstr "Eliminar Categoria"
+
+#: views/categoria/view.php:17
+msgid "View Categoria"
+msgstr "Ver Categoria"
+
+#: views/competencia/_form.php:7
+msgid "The required fields contain "
+msgstr "Serán obligatorios todos los campos que contengan "
+
+#: views/competencia/_form.php:140 views/franquiciado/_wallet.php:217
+#: views/pago/create.php:16 views/usuario/_historial.php:132
+#: views/usuario/_historial.php:618 views/usuario/_historial.php:623
+msgid "Competitor pass"
+msgstr "Pase Competidor"
+
+#: views/competencia/_form.php:148 views/competencia/_form.php:347
+msgid "Date"
+msgstr "Fecha"
+
+#: views/competencia/_form.php:251
+msgid "Add category"
+msgstr "Agregar Categoria"
+
+#: views/competencia/_form.php:293
+msgid "Category Identifier"
+msgstr "Identificador de Categoria"
+
+#: views/competencia/_form.php:337
+msgid "Value by Category Type"
+msgstr "Valor por tipo de categoría"
+
+#: views/competencia/_form.php:441
+msgid "Add a Category Type"
+msgstr "Agregar un tipo de categoría"
+
+#: views/competencia/admin.php:8 views/competencia/create.php:8
+#: views/competencia/update.php:9 views/competencia/view.php:8
+msgid "Competence List"
+msgstr "Listado de Competencias"
+
+#: views/competencia/admin.php:9 views/competencia/update.php:10
+#: views/competencia/view.php:9
+msgid "Create Competence"
+msgstr "Crear Competencia"
+
+#: views/competencia/admin.php:26 views/competencia/create.php:9
+#: views/competencia/index.php:8
+msgid "Manage Competences"
+msgstr "Manejar Competencias"
+
+#: views/competencia/admin.php:35
+msgid ""
+"at the beginning of each of your search values to specify how the comparison "
+"should be done."
+msgstr ""
+"al comienzo de cada uno de sus valores de búsqueda para especificar cómo se "
+"debe hacer la comparación."
+
+#: views/competencia/create.php:13
+msgid "Create a new competence"
+msgstr "Crear una nueva Competencia"
+
+#: views/competencia/index.php:7
+msgid "Create Competences"
+msgstr "Crear Competencias"
+
+#: views/competencia/update.php:11
+msgid "Competence Details"
+msgstr "Detalles de competencia"
+
+#: views/competencia/update.php:12 views/competencia/view.php:12
+msgid "Manage Competence"
+msgstr "Administrar la competencia"
+
+#: views/competencia/update.php:16
+msgid "Update Competences"
+msgstr "Actualizar Competencias"
+
+#: views/competencia/view.php:10
+msgid "Update Competence"
+msgstr "Actualizar la competencia"
+
+#: views/competencia/view.php:11
+msgid "Delete Competence"
+msgstr "Eliminar competencia"
+
+#: views/competencia/view.php:16
+msgid "View Competencia #"
+msgstr "Ver Competencia #"
+
+#: views/dj/_listado_general.php:68 views/juez/_listado_general.php:68
+msgid "General list"
+msgstr "Lista general"
+
+#: views/dj/_listado_general.php:173
+msgid "Next"
+msgstr "Siguiente"
+
+#: views/dj/index.php:42 views/layouts/main2.php:35
+msgid "Dj"
+msgstr "Dj"
+
+#: views/escuela/admin.php:11 views/escuela/create.php:11
+#: views/escuela/update.php:12 views/escuela/view.php:11
+msgid "List Escuela"
+msgstr "Lista Escuelas"
+
+#: views/escuela/admin.php:12 views/escuela/create.php:16
+#: views/escuela/index.php:10 views/escuela/update.php:13
+#: views/escuela/view.php:12
+msgid "Create Escuela"
+msgstr "Crear Escuela"
+
+#: views/escuela/admin.php:30
+msgid "Manage Escuelas"
+msgstr "Administrar Escuelas"
+
+#: views/escuela/create.php:12 views/escuela/index.php:11
+#: views/escuela/update.php:15 views/escuela/view.php:15
+msgid "Manage Escuela"
+msgstr "Administrar Escuela"
+
+#: views/escuela/index.php:15
+msgid "Escuelas"
+msgstr "Escuelas"
+
+#: views/escuela/update.php:14 views/escuela/view.php:19
+msgid "View Escuela"
+msgstr "Ver Escuela"
+
+#: views/escuela/update.php:19 views/escuela/view.php:13
+msgid "Update Escuela"
+msgstr "Actualizar Escuela"
+
+#: views/escuela/view.php:14
+msgid "Delete Escuela"
+msgstr "Eliminar Escuela"
+
+#: views/franquiciado/_categoria.php:42
+msgid "Franchisee: Category"
+msgstr "Franquiciado: Categoría"
+
+#: views/franquiciado/_form.php:21
+msgid "Select"
+msgstr "Seleccione"
+
+#: views/franquiciado/_form.php:23
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: views/franquiciado/_form.php:46
+msgid "Wire transfer"
+msgstr "Transferencia bancaria"
+
+#: views/franquiciado/_listado_categoria.php:48
+#: views/franquiciado/_listado_categoria_1.php:48
+#: views/franquiciado/_listado_inscripcion.php:68
+msgid "Franchisee: Competition"
+msgstr "Franquiciado: Competencia"
+
+#: views/franquiciado/_listado_categoria.php:66
+#: views/franquiciado/_listado_categoria_1.php:66
+#: views/franquiciado/_listado_inscripcion.php:87
+msgid "Results table: Inscriptions Categories"
+msgstr "Tabla de resultados: Inscripciones Categorías"
+
+#: views/franquiciado/_listado_categoria.php:75
+#: views/franquiciado/_listado_categoria_1.php:75
+#: views/franquiciado/_listado_inscripcion.php:97
+msgid "# Inscriptions Categories"
+msgstr "# Inscripciones Categorías"
+
+#: views/franquiciado/_listado_categoria.php:76
+#: views/franquiciado/_listado_categoria_1.php:76
+#: views/franquiciado/_listado_inscripcion.php:98
+#: views/franquiciado/_wallet.php:191 views/franquiciado/index.php:78
+#: views/franquiciado/index.php:183
+msgid "Paid Value"
+msgstr "Valor pagado"
+
+#: views/franquiciado/_listado_categoria.php:77
+#: views/franquiciado/_listado_categoria.php:183
+#: views/franquiciado/_listado_categoria_1.php:77
+#: views/franquiciado/_listado_categoria_1.php:180
+#: views/franquiciado/_listado_inscripcion.php:99
+#: views/franquiciado/_listado_inscripcion.php:228
+#: views/franquiciado/_wallet.php:192 views/franquiciado/index.php:79
+#: views/franquiciado/index.php:184
+msgid "Win Service Charge"
+msgstr "Cargo de Servicio Win"
+
+#: views/franquiciado/_listado_categoria.php:78
+#: views/franquiciado/_listado_categoria.php:184
+#: views/franquiciado/_listado_categoria_1.php:78
+#: views/franquiciado/_listado_categoria_1.php:181
+#: views/franquiciado/_listado_inscripcion.php:100
+#: views/franquiciado/_listado_inscripcion.php:229
+#: views/franquiciado/_wallet.php:193 views/franquiciado/index.php:80
+#: views/franquiciado/index.php:185
+msgid "Total to pay"
+msgstr "Total a pagar"
+
+#: views/franquiciado/_listado_categoria.php:101
+#: views/franquiciado/_listado_categoria_1.php:98
+#: views/franquiciado/_listado_inscripcion.php:120
+msgid "Inscriptions Categories"
+msgstr "Categorías de Inscripciones"
+
+#: views/franquiciado/_listado_categoria.php:149
+#: views/franquiciado/_listado_categoria_1.php:146
+#: views/franquiciado/_listado_inscripcion.php:193
+#: views/franquiciado/_wallet.php:269 views/franquiciado/_wallet.php:366
+#: views/franquiciado/index.php:143 views/pago/view.php:178
+msgid "Total"
+msgstr "Total"
+
+#: views/franquiciado/_listado_categoria.php:170
+#: views/franquiciado/_listado_categoria_1.php:167
+msgid "List of categories"
+msgstr "Lista de categorías"
+
+#: views/franquiciado/_listado_categoria.php:182
+#: views/franquiciado/_listado_categoria_1.php:179
+#: views/franquiciado/_listado_inscripcion.php:227
+msgid "Paid value"
+msgstr "Valor pagado"
+
+#: views/franquiciado/_listado_inscripcion.php:68
+msgid "Category: "
+msgstr "Categoría:"
+
+#: views/franquiciado/_wallet.php:52
+msgid "Franchisee: Wallet"
+msgstr "Franquiciado: Cartera"
+
+#: views/franquiciado/_wallet.php:93
+msgid "Bank details of the franchisee"
+msgstr "Detalles bancarios del franquiciado"
+
+#: views/franquiciado/_wallet.php:145
+msgid "Attached account certificate"
+msgstr "Adjuntar Certificado de la Cuenta"
+
+#: views/franquiciado/_wallet.php:181
+msgid "Results table: Competition"
+msgstr "Tabla de resultados: Competencia"
+
+#: views/franquiciado/_wallet.php:190
+msgid "# Quantity"
+msgstr "# Cantidad"
+
+#: views/franquiciado/_wallet.php:220 views/pago/_listado_pase.php:97
+msgid "Category Inscription"
+msgstr "Inscripción de categoría"
+
+#: views/franquiciado/_wallet.php:288
+msgid "Results table: Disbursement"
+msgstr "Tabla de resultados: Desembolso"
+
+#: views/franquiciado/_wallet.php:301
+msgid "Estatus"
+msgstr "Estatus"
+
+#: views/franquiciado/_wallet.php:302
+msgid "Validations"
+msgstr "Validaciones"
+
+#: views/franquiciado/_wallet.php:325
+#: views/franquiciadoDesembolso/index.php:79
+#: views/franquiciadoDesembolso/index.php:103
+msgid "In validation"
+msgstr "En validación"
+
+#: views/franquiciado/_wallet.php:331
+#: views/franquiciadoDesembolso/index.php:85
+#: views/franquiciadoDesembolso/index.php:113
+msgid "Approved"
+msgstr "Aprobado"
+
+#: views/franquiciado/_wallet.php:335
+#: views/franquiciadoDesembolso/index.php:88
+#: views/franquiciadoDesembolso/index.php:118
+msgid "Denied"
+msgstr "Negado"
+
+#: views/franquiciado/_wallet.php:358
+msgid "No records"
+msgstr "No hay registros"
+
+#: views/franquiciado/_wallet.php:389 views/franquiciado/_wallet.php:399
+#: views/franquiciado/_wallet.php:426
+msgid "Ask for money"
+msgstr "Pregunta por el dinero"
+
+#: views/franquiciado/_wallet.php:445 views/site/login.php:365
+msgid "Errors Presented"
+msgstr "Errores presentados"
+
+#: views/franquiciado/_wallet.php:447
+msgid "You must enter the competition"
+msgstr "Debes ingresar a la competencia"
+
+#: views/franquiciado/_wallet.php:448
+msgid "You must enter the amount"
+msgstr "Debes ingresar la cantidad"
+
+#: views/franquiciado/_wallet.php:449
+msgid "The amount entered is greater than the amount available"
+msgstr "El monto ingresado es mayor que la cantidad disponible"
+
+#: views/franquiciado/_wallet.php:461
+msgid "Available"
+msgstr "Disponible"
+
+#: views/franquiciado/_wallet.php:518
+msgid "Validation History"
+msgstr "Historial de Validación"
+
+#: views/franquiciado/admin.php:8
+msgid "List Franchisees"
+msgstr "Lista de Franquiciados"
+
+#: views/franquiciado/admin.php:9
+msgid "Create Franchisees"
+msgstr "Crear Franquiciados"
+
+#: views/franquiciado/admin.php:26
+msgid "Manage Franchisees"
+msgstr "Administrar Franquiciados"
+
+#: views/franquiciado/create.php:8
+msgid "List Franquiciado"
+msgstr "List Franquiciado"
+
+#: views/franquiciado/create.php:9 views/franquiciado/index.php:45
+msgid "Manage Franquiciado"
+msgstr "Administrar Franquiciados"
+
+#: views/franquiciado/create.php:13 views/franquiciado/index.php:44
+msgid "Create Franquiciado"
+msgstr "Crear Franquiciado"
+
+#: views/franquiciado/index.php:68
+msgid "Results table: Pass Competitor"
+msgstr "Tabla de resultados: Pase al competidor"
+
+#: views/franquiciado/index.php:77 views/reporte/index.php:37
+msgid "# Pass"
+msgstr "# Pase"
+
+#: views/franquiciado/index.php:100
+msgid "Pass Competitor"
+msgstr "Pase al competidor"
+
+#: views/franquiciado/index.php:165
+msgid "Results table: Detail Pass Competitor"
+msgstr "Tabla de resultados: detalle del competidor del pase"
+
+#: views/franquiciado/index.php:178
+msgid "ID Payment"
+msgstr "ID Pago"
+
+#: views/franquiciado/index.php:179
+msgid "Document type"
+msgstr "Tipo de Documento"
+
+#: views/franquiciado/index.php:182
+msgid "Mail"
+msgstr "Correo"
+
+#: views/franquiciado/update.php:16 views/franquiciado/view.php:10
+msgid "Update Franchisee"
+msgstr "Actualizar franquiciado"
+
+#: views/franquiciado/view.php:8
+msgid "List Franchisee"
+msgstr "Lista Franquiciado"
+
+#: views/franquiciado/view.php:9
+msgid "Create Franchisee"
+msgstr "Crear franquiciado"
+
+#: views/franquiciado/view.php:11
+msgid "Delete Franchisee"
+msgstr "Eliminar Franquiciado"
+
+#: views/franquiciado/view.php:12
+msgid "Manage Franchisee"
+msgstr "Administrar Franquiciado"
+
+#: views/franquiciado/view.php:16
+msgid "View Franchisee"
+msgstr "Ver Franquiciado"
+
+#: views/franquiciadoDesembolso/index.php:52
+msgid "Applicant"
+msgstr "Solicitante"
+
+#: views/franquiciadoDesembolso/index.php:55
+msgid "Rode"
+msgstr "Montó"
+
+#: views/inscripcion/_form.php:14 views/itemCalificacion/_form.php:6
+#: views/pago/_form.php:56 views/perfil/perfilmenu.php:24
+#: views/usuario/_form.php:30
+msgid "The required fields contain <span class=\"required\">*</span>."
+msgstr ""
+"Los campos obligatorios contienen <span class = \"required \"> * </ span>."
+
+#: views/inscripcion/_form.php:25 views/inscripcion/_form.php:196
+msgid "The maximum quota has been reached for this category"
+msgstr "La cuota máxima ha sido alcanzada para esta categoría"
+
+#: views/inscripcion/_form.php:39
+msgid "To cancel all categories, go to"
+msgstr "Para cancelar todas las categorías, vaya a"
+
+#: views/inscripcion/_form.php:39 views/layouts/main.php:335
+#: views/layouts/main.php:353 views/layouts/main2.php:365
+#: views/layouts/main2.php:383 views/site/index.php:18
+#: views/usuario/_historial.php:31
+msgid "History"
+msgstr "Historial"
+
+#: views/inscripcion/_form.php:39 views/usuario/_historial.php:609
+msgid "Payment History"
+msgstr "Historial de Pagos"
+
+#: views/inscripcion/_form.php:197
+msgid ""
+"The selected user does not have the age understood for the selected category"
+msgstr ""
+"El usuario seleccionado no tiene la edad comprendida para la categoría "
+"seleccionada"
+
+#: views/inscripcion/_form.php:219
+msgid "Selected Category"
+msgstr "Categoría seleccionada"
+
+#: views/inscripcion/_form.php:296
+msgid "Identification T."
+msgstr "Identificación T."
+
+#: views/inscripcion/_form.php:314
+msgid "Identification Number"
+msgstr "Número de Identificación"
+
+#: views/inscripcion/_form.php:318 views/pago/_form.php:89
+msgid "ID Number"
+msgstr "Número de Identificación"
+
+#: views/inscripcion/_form.php:341 views/inscripcion/view.php:81
+#: views/pago/_form.php:111
+msgid "Data"
+msgstr "Datos"
+
+#: views/inscripcion/_form.php:467
+msgid "Subscription Category"
+msgstr "Categoría de suscripción"
+
+#: views/inscripcion/_form.php:531
+msgid "Finish Subscription"
+msgstr "Finalizar Inscripción"
+
+#: views/inscripcion/_form.php:693
+msgid "You have reached the limit of allowed participants!"
+msgstr "¡Has alcanzado el límite de participantes permitidos!"
+
+#: views/inscripcion/_form.php:707
+msgid "You must select a category"
+msgstr "Debes seleccionar una categoría"
+
+#: views/inscripcion/create.php:8
+msgid "List my subscriptions"
+msgstr "Listar mis suscripciones"
+
+#: views/inscripcion/create.php:14
+msgid "Create a new subscription for the event"
+msgstr "Crea una nueva inscripción para el evento"
+
+#: views/inscripcion/index.php:12
+#: views/reporte/_listado_pase_competidor.php:38 views/reporte/index_1.php:37
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: views/inscripcion/update.php:9 views/inscripcion/view.php:8
+msgid "See my subscriptions"
+msgstr "Ver mis Inscripciones"
+
+#: views/inscripcion/update.php:10
+msgid "Detail Subscription"
+msgstr "Detalle de la Inscripción"
+
+#: views/inscripcion/update.php:16
+msgid "Update subscription"
+msgstr "Actualizar Inscripción"
+
+#: views/inscripcion/view.php:10
+msgid "Update my subscription"
+msgstr "Actualizar mi Inscripción"
+
+#: views/inscripcion/view.php:16 views/layouts/main.php:20
+#: views/layouts/main2.php:45
+msgid "Subscription"
+msgstr "Inscripción"
+
+#: views/inscripcion/view.php:57 views/pago/view.php:127
+msgid "Receipt"
+msgstr "Recibo"
+
+#: views/inscripcion/view.php:68
+msgid "You don't have any audio registered"
+msgstr "No tienes ningún audio registrado"
+
+#: views/itemCalificacion/admin.php:8
+msgid "List Item Calification"
+msgstr "Calificacion del elemento de la lista"
+
+#: views/itemCalificacion/admin.php:9
+msgid "Create Item Calification"
+msgstr "Crear Calificacion de elementos"
+
+#: views/itemCalificacion/admin.php:27
+msgid "Manage Item Califications"
+msgstr "Administrar las calibraciones de elementos"
+
+#: views/itemCalificacion/create.php:8 views/itemCalificacion/update.php:9
+#: views/itemCalificacion/view.php:8
+msgid "List Item Qualification"
+msgstr "Clasificación del elemento de la lista"
+
+#: views/itemCalificacion/create.php:9 views/itemCalificacion/index.php:8
+#: views/itemCalificacion/update.php:12 views/itemCalificacion/view.php:12
+msgid "Manage Item Qualification"
+msgstr "Administrar la calificación del artículo"
+
+#: views/itemCalificacion/create.php:14 views/itemCalificacion/index.php:7
+#: views/itemCalificacion/update.php:10 views/itemCalificacion/view.php:9
+msgid "Create Item Qualification"
+msgstr "Crear Calificación de un Artículo"
+
+#: views/itemCalificacion/index.php:13
+msgid "Item Qualification"
+msgstr "Calificación de un Artículo"
+
+#: views/itemCalificacion/update.php:11 views/itemCalificacion/view.php:17
+msgid "View Item Qualification"
+msgstr "Ver la Calificación de un Artículo"
+
+#: views/itemCalificacion/update.php:17 views/itemCalificacion/view.php:10
+msgid "Update Item Qualification"
+msgstr "Actualizar Artículo de Calificación"
+
+#: views/itemCalificacion/view.php:11
+msgid "Delete Item Qualification"
+msgstr "Eliminar Artículo de Calificación"
+
+#: views/juez/_form.php:36 views/juez/_form.php:67
+msgid "Add round"
+msgstr "Agregar ronda"
+
+#: views/juez/_form.php:119
+msgid "Add Category"
+msgstr "añadir categoría"
+
+#: views/juez/_form.php:202 views/juez/_form.php:233 views/juez/_form.php:244
+msgid "Rating items"
+msgstr "Elementos de clasificación"
+
+#: views/juez/_listado_general.php:68 views/juez/calificacion.php:42
+msgid "Qualify"
+msgstr "Calificar"
+
+#: views/juez/_listado_general.php:131
+msgid "Qualification items"
+msgstr "Qualification items"
+
+#: views/juez/admin.php:26
+msgid "Manage Judge"
+msgstr "Administrar juez"
+
+#: views/juez/create.php:13
+msgid "Create Judge"
+msgstr "Crear juez"
+
+#: views/juez/index.php:14
+msgid "Judge"
+msgstr "Juez"
+
+#: views/juez/update.php:16
+msgid "Update Judge"
+msgstr "Actualizar Juez"
+
+#: views/juez/view.php:16
+msgid "View Judge"
+msgstr "Ver Juez"
+
+#: views/layouts/main.php:8 views/layouts/main2.php:34
+msgid "Reports"
+msgstr "Reportes"
+
+#: views/layouts/main.php:9 views/layouts/main2.php:44
+msgid "Authentication"
+msgstr "Credenciales"
+
+#: views/layouts/main.php:10 views/layouts/main2.php:13
+msgid "Administrators"
+msgstr "Administradores"
+
+#: views/layouts/main.php:11 views/layouts/main2.php:10
+msgid "Menu"
+msgstr "Menú"
+
+#: views/layouts/main.php:13 views/layouts/main2.php:12
+#: views/perfil/perfilmenu.php:12
+msgid "Assign Profile-Menu"
+msgstr "Asignar Perfl-Menu"
+
+#: views/layouts/main.php:17 views/layouts/main2.php:21
+msgid "Items to Qualify"
+msgstr "Items para Calificar"
+
+#: views/layouts/main.php:93 views/layouts/main.php:140
+#: views/layouts/main.php:189 views/layouts/main.php:235
+#: views/layouts/main2.php:123 views/layouts/main2.php:170
+#: views/layouts/main2.php:219 views/layouts/main2.php:265
+msgid "My account"
+msgstr "Mi Cuenta"
+
+#: views/layouts/main.php:94 views/layouts/main.php:141
+#: views/layouts/main.php:190 views/layouts/main.php:236
+#: views/layouts/main2.php:124 views/layouts/main2.php:171
+#: views/layouts/main2.php:220 views/layouts/main2.php:266
+msgid "Log out"
+msgstr "Salir"
+
+#: views/layouts/main.php:314 views/layouts/main.php:333
+#: views/layouts/main.php:351 views/layouts/main2.php:344
+#: views/layouts/main2.php:363 views/layouts/main2.php:381
+msgid "My profile"
+msgstr "Mi Perfil"
+
+#: views/layouts/main.php:317 views/layouts/main2.php:347
+msgid "List of participants"
+msgstr "Lista de participantes"
+
+#: views/layouts/main.php:318 views/layouts/main2.php:348
+msgid "List of Category"
+msgstr "Lista de Categoría"
+
+#: views/layouts/main.php:319 views/layouts/main2.php:349
+msgid "Wallet"
+msgstr "Billetera"
+
+#: views/layouts/main.php:395 views/layouts/main2.php:425
+msgid "Use Terms"
+msgstr "Usar términos"
+
+#: views/layouts/main.php:395 views/layouts/main2.php:425
+msgid "About us"
+msgstr "Sobre nosotros"
+
+#: views/layouts/main.php:395 views/layouts/main2.php:425
+msgid "Privacy Policies"
+msgstr "Políticas de privacidad"
+
+#: views/layouts/main.php:399 views/layouts/main2.php:429
+msgid "Online Competition System"
+msgstr "Sistema de competencia en línea"
+
+#: views/layouts/main2.php:8
+msgid "Credentials"
+msgstr "Credenciales"
+
+#: views/layouts/main2.php:14
+msgid "State"
+msgstr "Estado"
+
+#: views/layouts/main2.php:15
+msgid "Municipality"
+msgstr "Municipio"
+
+#: views/layouts/main2.php:16
+msgid "Parish"
+msgstr "Parroquia"
+
+#: views/layouts/main2.php:20
+msgid "Types of Categories"
+msgstr "Tipo de Categorias"
+
+#: views/layouts/main2.php:22
+msgid "Items to Qualify by Category"
+msgstr "Artículos para Calificar por Categoría"
+
+#: views/layouts/main2.php:24
+msgid "Category Competition"
+msgstr "Categoría de Competencia"
+
+#: views/layouts/main2.php:25
+msgid "Type Competition"
+msgstr "Tipo de Competencia"
+
+#: views/layouts/main2.php:28 views/reporte/_listado_competencia.php:80
+msgid "Inscription"
+msgstr "Inscripción"
+
+#: views/layouts/main2.php:29
+msgid "Participant Inscription"
+msgstr "Inscripción participante"
+
+#: views/layouts/main2.php:31
+msgid "Payment Report"
+msgstr "Reporte de Pago"
+
+#: views/layouts/main2.php:32
+msgid "Inscription Status"
+msgstr "Estado de Inscripción"
+
+#: views/layouts/main2.php:33 views/layouts/main2.php:42
+#: views/pago/_listado_pase.php:97
+msgid "Competitor Pass"
+msgstr "Pase del competidor"
+
+#: views/layouts/main2.php:36
+msgid "Accreditation"
+msgstr "Acreditación"
+
+#: views/layouts/main2.php:37
+msgid "Order list"
+msgstr "Lista de Orden"
+
+#: views/layouts/main2.php:38 views/musica/index.php:42
+msgid "Validate Music"
+msgstr "Validar Música"
+
+#: views/layouts/main2.php:40
+msgid "Technical Support"
+msgstr "Soporte Técnico"
+
+#: views/layouts/main2.php:41
+msgid "Transactions"
+msgstr "Transacción"
+
+#: views/layouts/main2.php:48
+msgid "Pending payment"
+msgstr "Pendiente por Pagar"
+
+#: views/layouts/main2.php:49 views/reporte/_listado_pago.php:67
+#: views/reporte/_listado_pago.php:163
+#: views/reporte/_listado_pase_competidor.php:39 views/reporte/index_1.php:38
+msgid "Paid"
+msgstr "Pagado"
+
+#: views/layouts/main2.php:50 views/pago/_listado_pase.php:103
+msgid "Rejected"
+msgstr "Rechazado"
+
+#: views/menu/admin.php:11 views/menu/create.php:11 views/menu/update.php:12
+#: views/menu/view.php:11
+msgid "List Menu"
+msgstr "Lista Menú"
+
+#: views/menu/admin.php:12 views/menu/create.php:16 views/menu/index.php:10
+#: views/menu/update.php:13 views/menu/view.php:12
+msgid "Create Menu"
+msgstr "Crear Menú"
+
+#: views/menu/admin.php:30
+msgid "Manage Menus"
+msgstr "Administrar Menú"
+
+#: views/menu/create.php:12 views/menu/index.php:11 views/menu/update.php:15
+#: views/menu/view.php:15
+msgid "Manage Menu"
+msgstr "Administrar Menú"
+
+#: views/menu/index.php:15
+msgid "Menus"
+msgstr "Menús"
+
+#: views/menu/update.php:14 views/menu/view.php:19
+msgid "View Menu"
+msgstr "Ver Menú"
+
+#: views/menu/update.php:19 views/menu/view.php:13
+msgid "Update Menu"
+msgstr "Actualizar Menú"
+
+#: views/menu/view.php:14
+msgid "Delete Menu"
+msgstr "Eliminar Menú"
+
+#: views/musica/_listado_categoria.php:49
+#: views/musica/_listado_inscripcion.php:70
+msgid "Validate music: "
+msgstr "Validar la música:"
+
+#: views/musica/_listado_categoria.php:49
+msgid "Competition: "
+msgstr "Competencia:"
+
+#: views/musica/_listado_categoria.php:62
+msgid "List of Categories: "
+msgstr "Lista de Categorías:"
+
+#: views/musica/_listado_categoria.php:75 views/reporte/index.php:39
+#: views/reporte/index.php:169
+msgid "For validating"
+msgstr "Para validar"
+
+#: views/musica/_listado_inscripcion.php:93
+#: views/musica/_listado_inscripcion.php:188
+msgid "Id Registrations"
+msgstr "Id Registro"
+
+#: views/ordenLista/_listado_categoria.php:48
+msgid "List order / Competition"
+msgstr "Orden de la Lista / Competencia"
+
+#: views/ordenLista/_listado_categoria.php:221
+msgid "Do you really want to store the indicated order?"
+msgstr "¿Realmente quieres almacenar el orden indicado?"
+
+#: views/ordenLista/index.php:42
+msgid "Order of lists"
+msgstr "Orden de listas"
+
+#: views/ordenLista/index.php:58
+msgid "Descripción"
+msgstr "Descripción"
+
+#: views/organizacionRonda/_eliminatoria.php:51
+#: views/organizacionRonda/_final.php:51
+#: views/organizacionRonda/_semifinal.php:51
+msgid "Event organization: Final"
+msgstr "Organización del evento: Final"
+
+#: views/organizacionRonda/_eliminatoria.php:119
+#: views/organizacionRonda/_final.php:119
+#: views/organizacionRonda/_semifinal.php:119
+msgid "Date Record"
+msgstr "Registro de fecha"
+
+#: views/organizacionRonda/_eliminatoria_old.php:42
+#: views/organizacionRonda/_semifinal_old.php:42
+msgid "Event organization: Semifinal"
+msgstr "Organización del evento: Semifinal"
+
+#: views/organizacionRonda/_form.php:81
+msgid "Calculate"
+msgstr "Calcular"
+
+#: views/organizacionRonda/_form.php:88
+msgid "Event calculation"
+msgstr "Cálculo de eventos"
+
+#: views/organizacionRonda/_listado_inscripcion.php:69
+msgid "Event organization: "
+msgstr "Organización del evento:"
+
+#: views/organizacionRonda/admin.php:26
+msgid "Manage Event organization"
+msgstr "Administrar organización de eventos"
+
+#: views/organizacionRonda/create.php:16
+msgid "Create Event organization"
+msgstr "Crear organización de eventos"
+
+#: views/organizacionRonda/index.php:15
+msgid "Event organization"
+msgstr "Organización del evento"
+
+#: views/organizacionRonda/update.php:19
+msgid "Update Event organization"
+msgstr "Actualizar organización del evento"
+
+#: views/organizacionRonda/view.php:18
+msgid "View Event organization"
+msgstr "Ver organización del evento"
+
+#: views/pago/_form.php:73
+msgid "Driver license"
+msgstr "Licencia de conducir"
+
+#: views/pago/_form.php:85
+msgid "Number of Identification"
+msgstr "Número de Identificación"
+
+#: views/pago/_form.php:227
+msgid "Bill"
+msgstr "Facturación"
+
+#: views/pago/_form.php:311
+msgid "Pay"
+msgstr "Pagar"
+
+#: views/pago/_form.php:311
+msgid "Update Payment"
+msgstr "Actualizar pago"
+
+#: views/pago/_listado_pase.php:52
+msgid "Payments: Competitor pass"
+msgstr "Pagos: Pase del Competidor"
+
+#: views/pago/_listado_pase.php:59
+msgid "List of passes"
+msgstr "Lista de Pases"
+
+#: views/pago/_listado_pase.php:67
+msgid "Payment ID"
+msgstr "ID de pago"
+
+#: views/pago/_listado_pase.php:68
+msgid "Payment type"
+msgstr "Tipo de Pago"
+
+#: views/pago/_listado_pase.php:69
+msgid "Payment Status"
+msgstr "Estado de Pago"
+
+#: views/pago/_listado_pase.php:72
+msgid "Payment Registration Date"
+msgstr "Fecha de Registro de Pago"
+
+#: views/pago/_listado_pase.php:73
+msgid "Payment Date"
+msgstr "Fecha de pago"
+
+#: views/pago/_listado_pase.php:74
+msgid "Amount payable"
+msgstr "Cantidad pagable"
+
+#: views/pago/_listado_pase.php:75
+msgid "Type of Documentation"
+msgstr "Tipo de Documentación"
+
+#: views/pago/_listado_pase.php:78
+msgid "Buyer"
+msgstr "Comprador"
+
+#: views/pago/_listado_pase.php:79 views/usuario/_historial.php:788
+msgid "Bought for"
+msgstr "Comprado para"
+
+#: views/pago/_listado_pase.php:101 views/pago/_listado_pase.php:118
+msgid "For paying"
+msgstr "Por Pagar"
+
+#: views/pago/_listado_pase.php:102
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#: views/pago/_listado_pase.php:104 views/pago/_listado_pase.php:133
+msgid "On hold"
+msgstr "En Espera"
+
+#: views/pago/_listado_pase.php:123
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: views/pago/_listado_pase.php:128
+msgid "To refuse"
+msgstr "Rechazar"
+
+#: views/pago/_listado_pase.php:203
+msgid "Do you really want to validate the selected payment?"
+msgstr "¿Realmente quieres validar el pago seleccionado?"
+
+#: views/pago/create.php:9
+msgid "Report Payments List"
+msgstr "Informe de lista de pagos"
+
+#: views/pago/create.php:16
+msgid "Report payment"
+msgstr "Reportar Pago"
+
+#: views/pago/view.php:8
+msgid "Reported Payments List"
+msgstr "Informe de lista de pagos"
+
+#: views/pago/view.php:34
+msgid "Reported Payment"
+msgstr "Reporte de Pago"
+
+#: views/pago/view.php:89 views/usuario/_historial.php:870
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: views/pago/view.php:90 views/usuario/_historial.php:871
+msgid ""
+"Remember that after paying on the Paypal payment platform you must click on "
+"the button to return to the system."
+msgstr ""
+"Recuerde que después de pagar en la plataforma de pago de Paypal debe hacer "
+"clic en el botón para regresar al sistema."
+
+#: views/pago/view.php:100
+msgid "Operation type"
+msgstr "Tipo de Operación"
+
+#: views/pago/view.php:108
+msgid "Payment status"
+msgstr "Estado de pago"
+
+#: views/pago/view.php:141
+msgid "Billing details"
+msgstr "Detalles de facturación"
+
+#: views/perfil/admin.php:11 views/perfil/create.php:11
+#: views/perfil/update.php:12 views/perfil/view.php:11
+msgid "List Perfil"
+msgstr "Listar Perfiles"
+
+#: views/perfil/admin.php:12 views/perfil/create.php:16
+#: views/perfil/index.php:10 views/perfil/update.php:13
+#: views/perfil/view.php:12
+msgid "Create Perfil"
+msgstr "Crear Perfil"
+
+#: views/perfil/admin.php:30
+msgid "Manage Perfils"
+msgstr "Administrar Perfiles"
+
+#: views/perfil/create.php:12 views/perfil/index.php:11
+#: views/perfil/update.php:15 views/perfil/view.php:15
+msgid "Manage Perfil"
+msgstr "Administrar Perfil"
+
+#: views/perfil/index.php:15
+msgid "Perfils"
+msgstr "Perfil"
+
+#: views/perfil/perfilmenu.php:7
+msgid "Create Profile"
+msgstr "Crear Perfil"
+
+#: views/perfil/perfilmenu.php:8
+msgid "Manage Profiles"
+msgstr "Administrar Perfiles"
+
+#: views/perfil/perfilmenu.php:70
+msgid "Delete from profile"
+msgstr "Eliminar del Perfil"
+
+#: views/perfil/perfilmenu.php:81
+msgid "Add menu to the profile"
+msgstr "Agregar menú a este Perfil"
+
+#: views/perfil/perfilmenu.php:92
+msgid "Profile menu"
+msgstr "Perfil Menú"
+
+#: views/perfil/perfilmenu.php:110
+msgid "Close"
+msgstr "Cerrar"
+
+#: views/perfil/update.php:14 views/perfil/view.php:19
+msgid "View Perfil"
+msgstr "Ver Perfil"
+
+#: views/perfil/update.php:19 views/perfil/view.php:13
+msgid "Update Perfil"
+msgstr "Actualizar Perfil"
+
+#: views/perfil/view.php:14
+msgid "Delete Perfil"
+msgstr "Eliminar Perfil"
+
+#: views/reporte/_listado_categoria.php:37
+#: views/reporte/_listado_competencia.php:47
+#: views/reporte/_listado_pago.php:47
+#: views/reporte/_listado_pase_competidor.php:13 views/reporte/index.php:13
+#: views/reporte/index_1.php:13
+msgid "Reports by competence"
+msgstr "Reportes por Competencias"
+
+#: views/reporte/_listado_categoria.php:38
+#: views/reporte/_listado_competencia.php:48
+#: views/reporte/_listado_pago.php:48
+#: views/reporte/_listado_pase_competidor.php:14 views/reporte/index.php:14
+#: views/reporte/index_1.php:14
+msgid "Participants list-competition"
+msgstr "Lista de Participantes en Competencia"
+
+#: views/reporte/_listado_categoria.php:39
+#: views/reporte/_listado_competencia.php:49
+#: views/reporte/_listado_pago.php:49
+#: views/reporte/_listado_pase_competidor.php:15 views/reporte/index.php:15
+#: views/reporte/index_1.php:15
+msgid "List by categories"
+msgstr "Lista por Categorias"
+
+#: views/reporte/_listado_categoria.php:50
+msgid "List of Entries by Competition"
+msgstr "Lista de entradas por concurso"
+
+#: views/reporte/_listado_categoria.php:62
+#: views/reporte/_listado_competencia.php:83 views/usuario/_historial.php:286
+msgid "Type Category"
+msgstr "Tipo Categoría"
+
+#: views/reporte/_listado_categoria.php:63
+msgid "Quantity Inscriptions"
+msgstr "Cantidad de inscripciones"
+
+#: views/reporte/_listado_competencia.php:68
+msgid "List of Participants by Competition"
+msgstr "Lista de participantes por Competencia"
+
+#: views/reporte/_listado_competencia.php:84
+msgid "Type Doc"
+msgstr "Tipo Doc"
+
+#: views/reporte/_listado_competencia.php:85
+msgid "ID Num"
+msgstr "ID Num"
+
+#: views/reporte/_listado_pago.php:58
+msgid "Competitor Passes"
+msgstr "Pase Competidor"
+
+#: views/reporte/_listado_pago.php:63 views/reporte/_listado_pago.php:159
+msgid "Competencies"
+msgstr "Competencias"
+
+#: views/reporte/_listado_pago.php:64
+msgid "Amount Passes"
+msgstr "Monto Pases"
+
+#: views/reporte/_listado_pago.php:65 views/reporte/_listado_pago.php:161
+msgid "For Paying"
+msgstr "Por Pagar"
+
+#: views/reporte/_listado_pago.php:66 views/reporte/_listado_pago.php:162
+msgid "For collecting"
+msgstr "Por Recaudar"
+
+#: views/reporte/_listado_pago.php:68 views/reporte/_listado_pago.php:164
+msgid "Raised"
+msgstr "Recaudados"
+
+#: views/reporte/_listado_pago.php:151
+msgid "Registration"
+msgstr "Registro"
+
+#: views/reporte/_listado_pago.php:160
+msgid "Number of inscriptions"
+msgstr "Cantidad de Inscripciones"
+
+#: views/reporte/_listado_pase_competidor.php:16 views/reporte/index.php:16
+#: views/reporte/index_1.php:16
+msgid "List by competitive pass"
+msgstr "Lista por pase competitivo"
+
+#: views/reporte/_listado_pase_competidor.php:30
+msgid "Results table"
+msgstr "Tabla de resultados"
+
+#: views/reporte/_listado_pase_competidor.php:40 views/reporte/index_1.php:39
+msgid "Pending to be paid"
+msgstr "Pendiente de ser pagado"
+
+#: views/reporte/index.php:22
+msgid "Report: General"
+msgstr "Reporte: General"
+
+#: views/reporte/index.php:29 views/reporte/index_1.php:29
+msgid "Results table: Competitive Pass"
+msgstr "Tabla de Resultados: Pase Competidor"
+
+#: views/reporte/index.php:40 views/reporte/index.php:170
+#: views/reporte/index_1.php:40
+msgid "Collected money"
+msgstr "Dinero recaudado"
+
+#: views/reporte/index.php:41 views/reporte/index.php:171
+#: views/reporte/index_1.php:41
+msgid "Money to be collected"
+msgstr "Dinero para ser recolectado"
+
+#: views/reporte/index.php:124 views/reporte/index.php:254
+#: views/reporte/index_1.php:112
+msgid "Totales"
+msgstr "Totales"
+
+#: views/reporte/index.php:140 views/reporte/index.php:270
+#: views/reporte/index_1.php:128 views/reporte/index_1.php:147
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: views/reporte/index.php:159
+msgid "Results table: Category inscription"
+msgstr "Tabla de Resultados: Inscripción de Categoría"
+
+#: views/reporte/index.php:167
+msgid "# Registration"
+msgstr "# Registro"
+
+#: views/reporte/index_1.php:22
+msgid "Report: Inscriptions"
+msgstr "Reporte: inscripciones"
+
+#: views/site/_registroUsuario.php:87
+msgid "Country:"
+msgstr "País:"
+
+#: views/site/index.php:16
+msgid "My Profile"
+msgstr "Mi Perfil"
+
+#: views/site/index.php:76
+msgid "Buy competitor pass"
+msgstr "Comprar pase de competidor"
+
+#: views/site/index.php:122
+msgid "Free Competence"
+msgstr "Competencia Gratis"
+
+#: views/site/index.php:179
+msgid "Subscribe Category"
+msgstr "Inscribir Categoria"
+
+#: views/site/index.php:204
+msgid "Legend"
+msgstr "Leyenda"
+
+#: views/site/index.php:212
+msgid "Buy"
+msgstr "Comprar"
+
+#: views/site/index.php:220
+msgid "Waiting for payment"
+msgstr "Esperando Pago"
+
+#: views/site/index.php:229
+msgid "Payment successful"
+msgstr "Pago Satisfactorio"
+
+#: views/site/index.php:238
+msgid "Payment with problems"
+msgstr "Problemas con el Pago"
+
+#: views/site/login.php:139 views/site/login_2.php:139
+msgid "Log in"
+msgstr "Iniciar Sesión"
+
+#: views/site/login.php:150 views/site/login_2.php:150
+msgid "Fields with * are required."
+msgstr "Los campos con * son obligatorios."
+
+#: views/site/login.php:154 views/site/login_2.php:154
+msgid "Language"
+msgstr "Idioma"
+
+#: views/site/login.php:170 views/site/login_2.php:170
+msgid "Type your email."
+msgstr "Escriba su correo electrónico"
+
+#: views/site/login.php:171 views/site/login_2.php:171
+msgid "Type your password."
+msgstr "Escribe tu contraseña."
+
+#: views/site/login.php:175 views/site/login_2.php:175
+msgid "Type what you see on the image"
+msgstr "Escribe lo que ves en la imagen"
+
+#: views/site/login.php:183 views/site/login_2.php:183
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: views/site/login.php:193 views/site/login_2.php:193
+msgid "Join us, it is very easy!"
+msgstr "Únete a nosotros, ¡es muy fácil!"
+
+#: views/site/login.php:211 views/site/login.php:575
+#: views/site/login_2.php:203
+msgid "Sign Up"
+msgstr "Regístrate"
+
+#: views/site/login.php:342
+msgid "User Sign Up"
+msgstr "Registro de Usuario"
+
+#: views/site/login.php:367
+msgid "Incoming identification already exists"
+msgstr "La identificación entrante ya existe"
+
+#: views/site/login.php:368
+msgid "Incoming mail already exists"
+msgstr "El correo entrante ya existe"
+
+#: views/site/login.php:369
+msgid "The email entered is incorrect"
+msgstr "El correo electrónico ingresado es incorrecto"
+
+#: views/site/login.php:370
+msgid "Passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: views/site/login.php:371
+msgid "You must enter the document type"
+msgstr "Debe ingresar el tipo de documento"
+
+#: views/site/login.php:372
+msgid "You must enter your documentation"
+msgstr "Debe ingresar su documentación"
+
+#: views/site/login.php:373
+msgid "You must enter your  name"
+msgstr "Debes ingresar tu nombre"
+
+#: views/site/login.php:374
+msgid "You must enter your last name"
+msgstr "Debes ingresar tu apellido"
+
+#: views/site/login.php:375
+msgid "You must enter your email"
+msgstr "Debes ingresar tu email"
+
+#: views/site/login.php:376
+msgid "You must enter your password"
+msgstr "Debes ingresar tu contraseña"
+
+#: views/site/login.php:377
+msgid "You must confirm your password"
+msgstr "Debes confirmar tu contraseña"
+
+#: views/site/login.php:378 views/site/login.php:482
+msgid "Enter your birthdate"
+msgstr "Introduce tu Fecha de Nacimiento"
+
+#: views/site/login.php:379
+msgid "You must enter your country"
+msgstr "Debes ingresar a tu país"
+
+#: views/site/login.php:380
+msgid "You must enter your city"
+msgstr "Debes ingresar a tu ciudad"
+
+#: views/site/login.php:381
+msgid "You must enter your phone"
+msgstr "Debes ingresar tu teléfono"
+
+#: views/site/login.php:382
+msgid "You must enter your user type"
+msgstr "Debes ingresar tu tipo de usuario"
+
+#: views/site/login.php:383
+msgid "You must enter your email validation"
+msgstr "Debes ingresar tu validación de correo electrónico"
+
+#: views/site/login.php:384
+msgid "Emails do not match"
+msgstr "Los correos no coinciden"
+
+#: views/site/login.php:385
+msgid "You must select the day of birth"
+msgstr "Debes seleccionar el día de nacimiento"
+
+#: views/site/login.php:386
+msgid "You must select the month of birth"
+msgstr "Debes seleccionar el mes de nacimiento"
+
+#: views/site/login.php:387
+msgid "You must select the year of birth"
+msgstr "Debes seleccionar el año de nacimiento"
+
+#: views/site/login.php:390
+msgid "Fields with <span class=\"required\">*</span> are required."
+msgstr "Los campos con <span class=\"required\">*</span> son obligatorios."
+
+#: views/site/login.php:394
+msgid "National ID"
+msgstr "Identificación nacional"
+
+#: views/site/login.php:396
+msgid "Cédula de Extranjería"
+msgstr "Cédula de Extranjería"
+
+#: views/site/login.php:397
+msgid "Tarjeta de Identidad"
+msgstr "Tarjeta de Identidad"
+
+#: views/site/login.php:398
+msgid "Registro Civil"
+msgstr "Registro Civil"
+
+#: views/site/login.php:427 views/site/login.php:428
+msgid "Repeat email"
+msgstr "Repite el correo electrónico"
+
+#: views/site/login.php:525 views/usuario/_form.php:147
+msgid "Female"
+msgstr "Femenino"
+
+#: views/site/login.php:525 views/usuario/_form.php:147
+msgid "Male"
+msgstr "Masculino"
+
+#: views/site/login.php:557 views/site/login.php:558
+msgid "Repeat password"
+msgstr "Repita la Contraseña"
+
+#: views/site/login.php:587
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/usuario/_form.php:157
+msgid "Competitor"
+msgstr "Competidor"
+
+#: views/usuario/_form.php:157
+msgid "Public"
+msgstr "Público"
+
+#: views/usuario/_form.php:180 views/usuario/_form.php:181
+msgid "Repeat Password"
+msgstr "Repite la contraseña"
+
+#: views/usuario/_historial.php:27
+msgid "Create user"
+msgstr "Crear usuario"
+
+#: views/usuario/_historial.php:28
+msgid "Manage User"
+msgstr "Administrar usuario"
+
+#: views/usuario/_historial.php:104
+msgid "Errors found that must be corrected"
+msgstr "Errores encontrados que deben ser corregidos"
+
+#: views/usuario/_historial.php:113
+msgid "Id Payment"
+msgstr "Id de pago"
+
+#: views/usuario/_historial.php:114 views/usuario/_historial.php:767
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: views/usuario/_historial.php:117
+msgid "To correct"
+msgstr "Corregir"
+
+#: views/usuario/_historial.php:134
+msgid "Competition registration"
+msgstr "Registro de la competencia"
+
+#: views/usuario/_historial.php:184
+msgid "Errors found that must be corrected: Audio of the Inscriptions"
+msgstr "Errores encontrados que deben corregirse: audio de las inscripciones"
+
+#: views/usuario/_historial.php:199 views/usuario/_historial.php:289
+#: views/usuario/_historial.php:455
+msgid "To Correct"
+msgstr "Corregir"
+
+#: views/usuario/_historial.php:274
+msgid "Errors found that must be corrected: Number of users per registration"
+msgstr ""
+"Errores encontrados que deben corregirse: Número de usuarios por registro"
+
+#: views/usuario/_historial.php:287
+msgid "Qty. Participants"
+msgstr "Cant. Participantes"
+
+#: views/usuario/_historial.php:441
+msgid "Errors found that must be corrected: Group name"
+msgstr "Errores encontrados que deben corregirse: nombre del grupo"
+
+#: views/usuario/_historial.php:453
+msgid "Group Name"
+msgstr "Nombre del grupo"
+
+#: views/usuario/_historial.php:528
+msgid "Active Competences"
+msgstr "Competencias Activas"
+
+#: views/usuario/_historial.php:546
+msgid "Descripction"
+msgstr "Descripción"
+
+#: views/usuario/_historial.php:553 views/usuario/_historial.php:593
+msgid "Event Place"
+msgstr "Lugar del Evento"
+
+#: views/usuario/_historial.php:569
+msgid "Competences History"
+msgstr "Competencias Historia"
+
+#: views/usuario/_historial.php:621
+msgid "Category subscription"
+msgstr "Suscripción de Categoría"
+
+#: views/usuario/_historial.php:719
+msgid "View"
+msgstr "Ver"
+
+#: views/usuario/_historial.php:795
+msgid "Bought by"
+msgstr "Comprado por"
+
+#: views/usuario/update.php:11
+msgid "User details"
+msgstr "Detalles de usuario"
+
+#: views/usuario/update.php:16
+msgid "Update User Data"
+msgstr "Actualizar datos de usuario"
+
+#: views/usuario/view.php:10
+msgid "Update User"
+msgstr "Actualizar Usuario"
+
+#: views/usuario/view.php:85
+msgid "Birthday "
+msgstr "Fecha de Nacimiento"
+
+#~ msgid "Validate order of all categories"
+#~ msgstr "Validar orden de todas las categorías"
+
+#~ msgid "Deactivate order of all categories"
+#~ msgstr "Desactivar el orden de todas las categorías"
+
+#~ msgid "Current Order - Referential"
+#~ msgstr "Orden actual - Referencial"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "Do you really want to descativar everything?"
+#~ msgstr "¿De verdad quieres desactivar todo?"
+
+#~ msgid "Validate order of all entries for the selected competition"
+#~ msgstr ""
+#~ "Validar el orden de todas las entradas para la competencia seleccionada"
+
+#~ msgid "Validate order of all entries for the selected category"
+#~ msgstr ""
+#~ "Validar el orden de todas las entradas para la categoría seleccionada"
+
+#~ msgid "Referential order by registration"
+#~ msgstr "Orden referencial por registro"
+
+#~ msgid "Participation"
+#~ msgstr "Participación"
+
+#~ msgid "Validate Music / Competition"
+#~ msgstr "Validar Música / Competencia"
+
+#~ msgid "0 Participants"
+#~ msgstr "0 Participantes"
+
+#~ msgid "Remove validation"
+#~ msgstr "Eliminar Validación"
+
+#~ msgid "Do you really want to validate the music of the inscription?"
+#~ msgstr "¿De verdad quieres validar la música de la inscripción?"
+
+#~ msgid "Purchase Category"
+#~ msgstr "Categoría de compra"
+
+#~ msgid "Win service chart"
+#~ msgstr "Gana el cuadro de servicio"
+
+#~ msgid "Data of the franchisee"
+#~ msgstr "Datos del franquiciado"
+
+#~ msgid "Disbursement"
+#~ msgstr "Desembolso"
+
+#~ msgid "Results table: Franchisee"
+#~ msgstr "Tabla de resultados: franquiciado"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Manage Franquiciados"
+#~ msgstr "Administrar Franquiciados"
+
+#~ msgid "Identification:"
+#~ msgstr "Identificación:"
+
+#~ msgid "Repeat email:"
+#~ msgstr "Repite el correo electrónico:"
+
+#~ msgid "User Type:"
+#~ msgstr "Tipo de Usuario:"
+
+#~ msgid "Enter your birthday"
+#~ msgstr "Introduce tu Fecha de Nacimiento"
+
+#~ msgid "You must enter your birthday"
+#~ msgstr "Introduce tu Fecha de Nacimiento"
+
+#~ msgid "Fields with <span class=\"required\">*</span> are required"
+#~ msgstr ""
+#~ "Los campos obligatorios contienen <span class = \"required \"> * </ span>."
+
+#~ msgid "List Bloque"
+#~ msgstr "Listar Bloques"
+
+#~ msgid "year"
+#~ msgstr "año"
+
+#~ msgid "Identification type"
+#~ msgstr "Tipo de identificacion"
+
+#~ msgid "Identification number:"
+#~ msgstr "Número de identificación:"
+
+#~ msgid "Name:"
+#~ msgstr "Nombre:"
+
+#~ msgid "Last Name:"
+#~ msgstr "Apellido:"
+
+#~ msgid "Email:"
+#~ msgstr "Correo Electrónico:"
+
+#~ msgid "Errores Presentados"
+#~ msgstr "Errores Presentados"
+
+#~ msgid "All Rights Reserved."
+#~ msgstr "Tous droits réservés."
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Copyright &copy; %d %s."
+#~ msgstr "Droit d'auteur © %d %s."
+
+#~ msgid "%s die"
+#~ msgid_plural "%s dice"
+#~ msgstr[0] "%s dé"
+#~ msgstr[1] "%s dés"
+
+#~ msgid "Generated on %A, %B %e, %Y at %l:%M:%S %P %Z"
+#~ msgstr "Généré %A le %e %B %Y à %H:%M:%S %Z"
