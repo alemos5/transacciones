@@ -16,7 +16,7 @@ require_once(dirname(__FILE__).'/../includes/localization.php');
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'TeloComproenUsa',
+	'name'=>'Transacciones',
 
 	// preloading 'log' component
 

@@ -3937,3 +3937,639 @@ Stack trace:
 REQUEST_URI=/transacciones/
 HTTP_REFERER=http://localhost/transacciones/site/login
 ---
+2018/03/24 11:15:04 [error] [php] include(Clientes.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/transacciones/protected/views/site/index.php(19): spl_autoload_call()
+#1 /var/www/framework/web/CBaseController.php(126): require()
+#2 /var/www/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#3 /var/www/framework/web/CController.php(872): SiteController->renderFile()
+#4 /var/www/framework/web/CController.php(785): SiteController->renderPartial()
+#5 /var/www/transacciones/protected/controllers/SiteController.php(53): SiteController->render()
+#6 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams()
+#8 /var/www/framework/web/CController.php(289): SiteController->runAction()
+#9 /var/www/framework/web/CController.php(268): SiteController->runActionWithFilters()
+#10 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/transacciones/index.php(13): CWebApplication->run()
+REQUEST_URI=/transacciones/
+in /var/www/transacciones/protected/views/site/index.php (19)
+in /var/www/transacciones/protected/controllers/SiteController.php (53)
+in /var/www/transacciones/index.php (13)
+2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:09 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/boo...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/fon...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:51 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('vendor')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('vendor')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/vendor/dat...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/24 11:52:51 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('css')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/sb-adm...')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/css/sb-admin.css
+HTTP_REFERER=http://localhost/transacciones/site/index
+---

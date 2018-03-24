@@ -35,7 +35,7 @@ __('Subscription');
     <!--[if lt IE 8]>
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
     <![endif]-->
-    
+      <link href="<?php echo Yii::app()->request->baseUrl.'/images/';?>vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
     <!--<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />    -->
     <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.png">
@@ -85,11 +85,11 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
                     array(
                         'label' => '<span style="line-height: 3.6">'.substr(strtoupper(Yii::app()->user->_id),0,20).'...</span>',
                     ),
-                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
+                    /*array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
                         array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
                         array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
                         /*array('label' => '<img src="images/idioma/frances.png" alt="" width="20px"> Frances','icon'=>'file','url' => array('/usuario/Idioma/3')),*/
-                    )),
+                    //)),
                     array('label' => '<span class="user-menu glyphicon glyphicon-user"></span>', 'url' => '#','items'=> array(
                         array('label' => __('My account'),'icon'=>'file','url' => array('/usuario/'.Yii::app()->user->id_usuario_sistema)),
                         array('label' => __('Log out'),'icon'=>'file','url' => array('/site/logout')),
@@ -338,15 +338,15 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
     <?php if(!Yii::app()->user->isGuest):
 		echo '<div class="back"  id="footer">				
 				<div class="center-block">
-					<img class="img-responsive" src="'.Yii::app()->request->baseUrl.'/images/logo-foot.png" />				
+					<!--<img class="img-responsive" src="'.Yii::app()->request->baseUrl.'/images/logo-foot.png" />-->				
 				</div>
-				<p><b>2018 - 2019 | &copy; Te lo Compro en Usa | NIT: xxxxx</b></span></p>
+				<p><b>2018 - 2019 | &copy; Transacciones | NIT: xxxxx</b></span></p>
 				<p><a href="'.Yii::app()->request->baseUrl.'/site/construccio">'.__('Use Terms').'</a> > <a href="'.Yii::app()->request->baseUrl.'/site/construccio">'.__("About us").'</a> > <a href="'.Yii::app()->request->baseUrl.'/site/construccio">'.__("Privacy Policies").'</a></p>
 			  </div>'; else: 
 		echo '<div  id="footer">
 				<hr class="soften">
 				Te lo Compro en Usa - '.__('Logistic system').'<br />
-				<span><b>2018 - 2019 | &copy; Te lo Compro en Usa | NIT: xxxxx</b></span>				
+				<span><b>2018 - 2019 | &copy; Transacciones | NIT: xxxxx</b></span>				
 			  </div><!-- footer -->'; endif ?>
   </body>
 </html>

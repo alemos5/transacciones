@@ -127,127 +127,54 @@ $this->breadcrumbs=array(
 
 
 <div class="row">
-	<div class="col col-md-6">
+	<div class="col col-md-12">
             <center>
                 <div id="logo"><img src="../images/logo.png"></div>
             </center>
 	</div>
 </div>
 <div class="row">
-	<div class="col col-md-6">
-		<div class="center-block">
-			<div id="bglogin">
-				<fieldset>
-	  <legend><?php echo __('Log in'); ?></legend>
-  <div class="form">
-    <?php $form=$this->beginWidget('booster.widgets.TbActiveForm', array(
-	    'id'=>'login-form',
-	    'type' => 'inline',
-	    'enableClientValidation'=>true,
-	    'clientOptions'=>array(
-		    'validateOnSubmit'=>true,
-	    ),
-    )); ?>
+    <div class="col col-md-12">
+        <div class="center-block">
+            <div id="bglogin">
+                <fieldset>
+        <legend><?php echo __('Log in'); ?></legend>
+        <div class="form">
+        <?php $form=$this->beginWidget('booster.widgets.TbActiveForm', array(
+        'id'=>'login-form',
+        'type' => 'inline',
+        'enableClientValidation'=>true,
+        'clientOptions'=>array(
+            'validateOnSubmit'=>true,
+        ),
+        )); ?>
 
-    <div class="alert alert-warning"><i class="glyphicon glyphicon-info-sign"></i> <?php echo __('Fields with * are required.'); ?></div>
-    <p>
-        <div class="row">
-          <div class="col-sm-3">
-              <label><strong><?php echo __('Language'); ?>:</strong></label>
-          </div>
-          <div class="col-sm-9 text-right">
-              <div class="btn-group" style="width: 100%">
-                  <a href="#" class="btn btn-default" style="width: 80%"><?php echo $Idioma; ?></a>
-                  <a aria-expanded="true" href="../usuario/IdiomaR/1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="width: 18%"><span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                      <li><a href="../Usuario/IdiomaR/1"><img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English</a></li>
-                      <li><a href="../Usuario/IdiomaR/2"><img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-
-
-    </p>
-    <p><?php echo $form->textFieldGroup($model,'username', array('widgetOptions'=>array('htmlOptions'=>array('placeholder'=>__('Type your email.'))),'append' => '<i class="glyphicon glyphicon-user"></i>')); ?></p>
-    <p><?php echo $form->passwordFieldGroup($model,'password', array('widgetOptions'=>array('htmlOptions'=>array('placeholder'=>__('Type your password.'))),'append' => '<i class="glyphicon glyphicon-lock"></i>')); ?></p>
-<!--    <div class="row">
+        <div class="alert alert-warning"><i class="glyphicon glyphicon-info-sign"></i> <?php echo __('Fields with * are required.'); ?></div>
+        <p><?php echo $form->textFieldGroup($model,'username', array('widgetOptions'=>array('htmlOptions'=>array('placeholder'=>__('Type your email.'))),'append' => '<i class="glyphicon glyphicon-user"></i>')); ?></p>
+        <p><?php echo $form->passwordFieldGroup($model,'password', array('widgetOptions'=>array('htmlOptions'=>array('placeholder'=>__('Type your password.'))),'append' => '<i class="glyphicon glyphicon-lock"></i>')); ?></p>
+        <!--    <div class="row">
         <div class="col-sm-3 control-label"></div>
         <div class="col-sm-9">
         <?php // $this->widget('CCaptcha', array('clickableImage'=>1)); ?>
         </div>
-    </div>-->
-    <p><?php // echo $form->textFieldGroup($model,'verifyCode',array('widgetOptions'=>array('htmlOptions'=>array('id'=>'input-lg', 'placeholder'=>__('Type what you see on the image'),'autocomplete'=>'off')), 'append' => '<i class="glyphicon glyphicon-barcode"></i>')); ?></p>
-    <!--<div class="row rememberMe">-->
-      <?php //echo $form->checkBox($model,'rememberMe'); ?>
-      <?php //echo $form->label($model,'rememberMe'); ?>
-      <?php //echo $form->error($model,'rememberMe'); ?>
-    <!--</div>-->
-    <hr>
-    <button id="yw1" style="width: 100%; margin-bottom: 5px; " class="btn btn-lg btn-primary" name="yt0" type="submit"><?php echo __('Log In'); ?></button><br>
-    <a target="_black" style=" width: 100%;" class="btn btn-lg btn-default " disabled="disabled" href="#">Rastrear orden</a>
-    <label style="width: 100%;" data-target="#recuperarClaveUsuario" data-toggle="modal" class="btn"><?php echo __('Forgot your password?'); ?></label>
+        </div>-->
+        <p><?php // echo $form->textFieldGroup($model,'verifyCode',array('widgetOptions'=>array('htmlOptions'=>array('id'=>'input-lg', 'placeholder'=>__('Type what you see on the image'),'autocomplete'=>'off')), 'append' => '<i class="glyphicon glyphicon-barcode"></i>')); ?></p>
+        <!--<div class="row rememberMe">-->
+        <?php //echo $form->checkBox($model,'rememberMe'); ?>
+        <?php //echo $form->label($model,'rememberMe'); ?>
+        <?php //echo $form->error($model,'rememberMe'); ?>
+        <!--</div>-->
+        <hr>
+        <button id="yw1" style="width: 100%; margin-bottom: 5px; " class="btn btn-lg btn-primary" name="yt0" type="submit"><?php echo __('Log In'); ?></button><br>
+        <label style="width: 100%;" data-target="#recuperarClaveUsuario" data-toggle="modal" class="btn"><?php echo __('Forgot your password?'); ?></label>
 
-    <?php $this->endWidget(); ?>
-  </div>
-  </fieldset>
-			</div>
-</div>
-</div>
-	<div class="intro-reg center-block col col-md-6">
-		<div align="center"><img src="../images/registro.png" alt="..." class="img-responsive"></div>
-		<h2><?php echo __('Join us, it is very easy!'); ?></h2>
-		<h5 style="text-align:justify;color:#efefef;line-height:1.5em">
-                    <!--En el Fondo Nacional de Garant&iacute;as Rec&iacute;procas para la Peque&ntilde;a y Mediana Empresa te invitamos a registrarte de forma r&aacute;pida y segura para acceder a nuestros servicios.-->
-                </h5>
+        <?php $this->endWidget(); ?>
+        </div>
+        </fieldset>
+            </div>
+        </div>
+    </div>
 
-                <div class="btn-group">
-                    <a href="#" class="btn btn-default" style="padding: 10px 16px; font-size: 17px"><?php echo $Idioma; ?></a>
-                    <a aria-expanded="true" href="../usuario/IdiomaR/1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="padding: 10px 16px; font-size: 17px"><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../Usuario/IdiomaR/1"><img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English</a></li>
-                        <li><a href="../Usuario/IdiomaR/2"><img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español</a></li>
-                    </ul>
-                </div>
-        <?php
-
-                $this->widget(
-				'booster.widgets.TbButton',
-				array(
-					'label' => __('Sign Up'),
-					'context' => 'default',
-					'size' => 'large',
-					'icon' => 'check',
-                                        'htmlOptions' => array(
-                                            'data-toggle' => 'modal',
-                                            'data-target' => '#Registro',
-                                            'width' => '140',
-                                        ),
-				)
-			);
-
-		?>
-
-<!--        --><?php
-/*
-                $this->widget(
-				'booster.widgets.TbButton',
-				array(
-					'label' => 'Registrate',
-					'context' => 'default',
-					'size' => 'large',
-					'icon' => 'check',
-                                        'htmlOptions' => array(
-                                            'data-toggle' => 'modal',
-                                            'data-target' => '#RegistroE',
-                                            'width' => '140',
-                                        ),
-				)
-			);
-
-		*/?>
-
-	</div>
 </div>
 
 
