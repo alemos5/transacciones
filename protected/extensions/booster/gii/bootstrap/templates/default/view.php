@@ -15,23 +15,25 @@ echo "\$this->breadcrumbs=array(
 ?>
 
 $this->menu=array(
-array('label'=>'List <?php echo $this->modelClass; ?>','url'=>array('index')),
-array('label'=>'Create <?php echo $this->modelClass; ?>','url'=>array('create')),
-array('label'=>'Update <?php echo $this->modelClass; ?>','url'=>array('update','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>)),
-array('label'=>'Delete <?php echo $this->modelClass; ?>','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>'Are you sure you want to delete this item?')),
-array('label'=>'Manage <?php echo $this->modelClass; ?>','url'=>array('admin')),
+array('label'=>'Listar <?php echo $this->modelClass; ?>','url'=>array('index')),
+array('label'=>'Crear <?php echo $this->modelClass; ?>','url'=>array('create')),
+array('label'=>'Actualizar <?php echo $this->modelClass; ?>','url'=>array('update','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>)),
+array('label'=>'Eliminar <?php echo $this->modelClass; ?>','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model-><?php echo $this->tableSchema->primaryKey; ?>),'confirm'=>'Are you sure you want to delete this item?')),
+array('label'=>'Administración de <?php echo $this->modelClass; ?>','url'=>array('admin')),
 );
 ?>
 
-<h1>View <?php echo $this->modelClass . " #<?php echo \$model->{$this->tableSchema->primaryKey}; ?>"; ?></h1>
+<span  class="ez">Detallar <?php echo $this->modelClass . " #<?php echo \$model->{$this->tableSchema->primaryKey}; ?>"; ?></span>
 
-<?php echo "<?php"; ?> $this->widget('booster.widgets.TbDetailView',array(
-'data'=>$model,
-'attributes'=>array(
-<?php
-foreach ($this->tableSchema->columns as $column) {
-	echo "\t\t'" . $column->name . "',\n";
-}
-?>
-),
-)); ?>
+<div class="pd-inner">
+    <?php echo "<?php"; ?> $this->widget('booster.widgets.TbDetailView',array(
+    'data'=>$model,
+    'attributes'=>array(
+    <?php
+    foreach ($this->tableSchema->columns as $column) {
+        echo "\t\t'" . $column->name . "',\n";
+    }
+    ?>
+    ),
+    )); ?>
+</div>

@@ -46,7 +46,7 @@ h4
 {
     background:rgba(255,255,255,0.75);
     /*border: 1px solid #f1f1f1;*/
-    border-top: 3px solid #0A6168;
+    border-top: 3px solid #A50007;
     /*border-radius:3px;*/
     box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
     padding:15px 30px;
@@ -68,7 +68,6 @@ h4
     left:-20%;
     overflow:visible;
     z-index:999;*/
-    
 }
 
 #bglogin.reg

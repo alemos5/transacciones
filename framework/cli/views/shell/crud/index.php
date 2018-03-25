@@ -23,7 +23,7 @@ $this->menu=array(
 );
 ?>
 
-<h1><?php echo $label; ?></h1>
+<h1>Pueba 001: <?php echo $label; ?></h1>
 
 <?php echo "<?php"; ?> $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

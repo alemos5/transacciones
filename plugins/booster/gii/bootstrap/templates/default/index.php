@@ -18,7 +18,7 @@ array('label'=>'Manage <?php echo $this->modelClass; ?>','url'=>array('admin')),
 );
 ?>
 
-<h1><?php echo $label; ?></h1>
+<h1>Prueba 003: <?php echo $label; ?></h1>
 
 <?php echo "<?php"; ?> $this->widget('booster.widgets.TbListView',array(
 'dataProvider'=>$dataProvider,

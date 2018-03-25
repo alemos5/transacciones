@@ -4573,3 +4573,32 @@ Stack trace:
 REQUEST_URI=/transacciones/site/css/sb-admin.css
 HTTP_REFERER=http://localhost/transacciones/site/index
 ---
+2018/03/25 11:15:16 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('site')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/site/login
+HTTP_REFERER=http://localhost/transacciones/site/index
+---
+2018/03/25 19:55:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "clientes/index" in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('clientes/index')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/transacciones/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/transacciones/clientes/index
+HTTP_REFERER=http://localhost/transacciones/cuentaBancaria/create
+---
+2018/03/25 20:20:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "tarifaEnvio/index" in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('tarifaEnvio/ind...')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/transacciones/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/transacciones/tarifaEnvio/index
+HTTP_REFERER=http://localhost/transacciones/producto/index
+---

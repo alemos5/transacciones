@@ -13,14 +13,16 @@ echo "\$this->breadcrumbs=array(
 ?>
 
 $this->menu=array(
-array('label'=>'Create <?php echo $this->modelClass; ?>','url'=>array('create')),
-array('label'=>'Manage <?php echo $this->modelClass; ?>','url'=>array('admin')),
+array('label'=>'Crear <?php echo $this->modelClass; ?>','url'=>array('create')),
+array('label'=>'Administración de <?php echo $this->modelClass; ?>','url'=>array('admin')),
 );
 ?>
 
-<h1><?php echo $label; ?></h1>
+<span  class="ez"><?php echo $label; ?></span>
 
-<?php echo "<?php"; ?> $this->widget('booster.widgets.TbListView',array(
-'dataProvider'=>$dataProvider,
-'itemView'=>'_view',
-)); ?>
+<div class="pd-inner">
+    <?php echo "<?php"; ?> $this->widget('booster.widgets.TbListView',array(
+    'dataProvider'=>$dataProvider,
+    'itemView'=>'_view',
+    )); ?>
+</div>
