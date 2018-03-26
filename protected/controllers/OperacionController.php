@@ -69,6 +69,7 @@ $model=new Operacion;
 if(isset($_POST['Operacion']))
 {
 $model->attributes=$_POST['Operacion'];
+$model->fecha_operacion = date("Y-m-d", strtotime($model->fecha_operacion));
 if($model->save())
 $this->redirect(array('view','id'=>$model->id_operacion));
 }
@@ -93,6 +94,7 @@ $model=$this->loadModel($id);
 if(isset($_POST['Operacion']))
 {
 $model->attributes=$_POST['Operacion'];
+    $model->fecha_operacion = date("Y-m-d", strtotime($model->fecha_operacion));
 if($model->save())
 $this->redirect(array('view','id'=>$model->id_operacion));
 }

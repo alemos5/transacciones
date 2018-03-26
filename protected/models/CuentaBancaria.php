@@ -58,6 +58,9 @@ class CuentaBancaria extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'idBanco' => array(self::BELONGS_TO, 'Banco', 'id_banco'),
+            'idPais' => array(self::BELONGS_TO, 'Pais', 'id_pais'),
+            'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'estatus'),
 		);
 	}
 
@@ -69,12 +72,12 @@ class CuentaBancaria extends CActiveRecord
 		return array(
 			'id_cuenta_bancaria' => 'Id Cuenta Bancaria',
 			'alias_cuenta_bancaria' => 'Alias Cuenta Bancaria',
-			'id_banco' => 'Id Banco',
+			'id_banco' => 'Banco',
 			'tipo_cunta' => 'Tipo Cunta',
 			'cbu' => 'Cbu',
 			'Cuenta' => 'Cuenta',
 			'tipo_documento' => 'Tipo Documento',
-			'documentacion' => 'Documentacion',
+			'documentacion' => 'Documentación',
 			'correo' => 'Correo',
 			'img' => 'Img',
 			'id_pais' => 'Id Pais',

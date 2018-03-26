@@ -69,6 +69,8 @@ $model=new TarifaProducto;
 if(isset($_POST['TarifaProducto']))
 {
 $model->attributes=$_POST['TarifaProducto'];
+    $model->id_usuario_registro = Yii::app()->user->id_usuario_sistema;
+    $model->fecha_registro = date('Y-m-d H:i:s');
 if($model->save())
 $this->redirect(array('view','id'=>$model->id_tarifa_producto));
 }
@@ -93,6 +95,8 @@ $model=$this->loadModel($id);
 if(isset($_POST['TarifaProducto']))
 {
 $model->attributes=$_POST['TarifaProducto'];
+    $model->id_usuario_modificacion = Yii::app()->user->id_usuario_sistema;
+    $model->fecha_modificacion = date('Y-m-d H:i:s');
 if($model->save())
 $this->redirect(array('view','id'=>$model->id_tarifa_producto));
 }

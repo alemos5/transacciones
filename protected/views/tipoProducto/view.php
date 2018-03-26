@@ -19,9 +19,13 @@ array('label'=>'Administración de TipoProducto','url'=>array('admin')),
     <?php $this->widget('booster.widgets.TbDetailView',array(
     'data'=>$model,
     'attributes'=>array(
-    		'id_tipo_producto',
+    	//	'id_tipo_producto',
 		'tipo_producto',
-		'estatus',
+		//'estatus',
+        array(
+            'label'=>'Estatus:',
+            'value'=>$model->idEstatus->estatus_titulo,
+        ),
     ),
     )); ?>
 </div>

@@ -13,7 +13,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('estatus')); ?>:</b>
-	<?php echo CHtml::encode($data->estatus); ?>
+	<?php echo CHtml::encode($data->idEstatus->estatus_titulo); ?>
 	<br />
 
 

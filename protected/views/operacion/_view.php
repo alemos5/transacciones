@@ -1,36 +1,45 @@
 <div class="view">
 
-		<b><?php echo CHtml::encode($data->getAttributeLabel('id_operacion')); ?>:</b>
+    <b><?php echo CHtml::encode($data->getAttributeLabel('id_operacion')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id_operacion),array('view','id'=>$data->id_operacion)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('code_operacion')); ?>:</b>
-	<?php echo CHtml::encode($data->code_operacion); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_operacion')); ?>:</b>
-	<?php echo CHtml::encode($data->id_tipo_operacion); ?>
+	<?php echo CHtml::encode($data->idTipoProducto->tipo_producto); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_pais')); ?>:</b>
-	<?php echo CHtml::encode($data->id_pais); ?>
+	<?php echo CHtml::encode($data->idPais->pais); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('monto_operacion')); ?>:</b>
 	<?php echo CHtml::encode($data->monto_operacion); ?>
 	<br />
 
+    <b><?php echo CHtml::encode($data->getAttributeLabel('monto_cierre')); ?>:</b>
+    <?php echo CHtml::encode($data->monto_cierre); ?>
+    <br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_moneda_origen')); ?>:</b>
-	<?php echo CHtml::encode($data->id_moneda_origen); ?>
+	<?php echo CHtml::encode($data->idMonedaOrigen->moneda); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_moneda_destino')); ?>:</b>
-	<?php echo CHtml::encode($data->id_moneda_destino); ?>
+	<?php echo CHtml::encode($data->idMonedaDestino->moneda); ?>
 	<br />
 
-	<?php /*
+    <b><?php echo CHtml::encode($data->getAttributeLabel('fecha_operacion')); ?>:</b>
+    <?php echo CHtml::encode(date("d-m-Y", strtotime($data->fecha_operacion))); ?>
+    <br />
+
+
+    <?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('monto_cierre')); ?>:</b>
 	<?php echo CHtml::encode($data->monto_cierre); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('code_operacion')); ?>:</b>
+	<?php echo CHtml::encode($data->code_operacion); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_operacion')); ?>:</b>

@@ -59,19 +59,21 @@ $this->render('view',array(
 * Creates a new model.
 * If creation is successful, the browser will be redirected to the 'view' page.
 */
-public function actionCreate()
-{
-$model=new Producto;
+    public function actionCreate()
+    {
+    $model=new Producto;
 
-// Uncomment the following line if AJAX validation is needed
-// $this->performAjaxValidation($model);
+    // Uncomment the following line if AJAX validation is needed
+    // $this->performAjaxValidation($model);
 
-if(isset($_POST['Producto']))
-{
-$model->attributes=$_POST['Producto'];
-if($model->save())
-$this->redirect(array('view','id'=>$model->id_producto));
-}
+    if(isset($_POST['Producto']))
+    {
+        $model->attributes=$_POST['Producto'];
+        $model->id_usuario_registro = Yii::app()->user->id_usuario_sistema;
+        $model->fecha_registro = date('Y-m-d H:i:s');
+    if($model->save())
+    $this->redirect(array('view','id'=>$model->id_producto));
+    }
 
 $this->render('create',array(
 'model'=>$model,
@@ -93,6 +95,8 @@ $model=$this->loadModel($id);
 if(isset($_POST['Producto']))
 {
 $model->attributes=$_POST['Producto'];
+    $model->id_usuario_modificacion = Yii::app()->user->id_usuario_sistema;
+    $model->fecha_modificacion = date('Y-m-d H:i:s');
 if($model->save())
 $this->redirect(array('view','id'=>$model->id_producto));
 }

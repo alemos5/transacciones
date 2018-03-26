@@ -45,6 +45,8 @@ class Banco extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'idPais' => array(self::BELONGS_TO, 'Pais', 'id_pais'),
+            'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'estatus'),
 		);
 	}
 
@@ -55,7 +57,7 @@ class Banco extends CActiveRecord
 	{
 		return array(
 			'id_banco' => 'Id Banco',
-			'id_pais' => 'Id Pais',
+			'id_pais' => 'País',
 			'banco' => 'Banco',
 			'siglas' => 'Siglas',
 			'estatus' => 'Estatus',

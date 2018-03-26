@@ -4602,3 +4602,357 @@ Stack trace:
 REQUEST_URI=/transacciones/tarifaEnvio/index
 HTTP_REFERER=http://localhost/transacciones/producto/index
 ---
+2018/03/26 13:10:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "GII" in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('GII')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/transacciones/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/transacciones/GII
+---
+2018/03/26 14:05:15 [error] [exception.CException] CException: La propiedad "WebUser"."img" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/web/auth/CWebUser.php(146): CComponent->__get('img')
+#1 /var/www/transacciones/protected/views/layouts/main.php(284): CWebUser->__get('img')
+#2 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#4 /var/www/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="mainme...')
+#6 /var/www/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="mainme...')
+#7 /var/www/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /var/www/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/transacciones/protected/views/layouts/column2.php(20): CBaseController->endContent()
+#10 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#11 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#12 /var/www/framework/web/CController.php(787): CBaseController->renderFile('/var/www/transa...', Array, true)
+#13 /var/www/transacciones/protected/controllers/BancoController.php(54): CController->render('view', Array)
+#14 [internal function]: BancoController->actionView('1')
+#15 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(BancoController), Array)
+#16 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BancoController), Object(ReflectionMethod), Array)
+#17 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#18 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#24 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/framework/web/CWebApplication.php(282): CController->run('view')
+#26 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('banco/view')
+#27 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/transacciones/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/transacciones/banco/1
+HTTP_REFERER=http://localhost/transacciones/banco/create
+---
+2018/03/26 14:08:30 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ')' in /var/www/transacciones/protected/views/banco/view.php:26
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#1 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#2 /var/www/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#3 /var/www/transacciones/protected/controllers/BancoController.php(54): CController->render('view', Array)
+#4 [internal function]: BancoController->actionView('1')
+#5 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(BancoController), Array)
+#6 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BancoController), Object(ReflectionMethod), Array)
+#7 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#8 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#14 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/framework/web/CWebApplication.php(282): CController->run('view')
+#16 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('banco/view')
+#17 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/transacciones/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/transacciones/banco/1
+HTTP_REFERER=http://localhost/transacciones/banco/admin
+---
+2018/03/26 15:21:32 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/cuentaBancaria/_form.php:18
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#1 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#2 /var/www/transacciones/protected/views/cuentaBancaria/create.php(16): CController->renderPartial('_form', Array)
+#3 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#4 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#6 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
+#7 /var/www/transacciones/protected/controllers/CuentaBancariaController.php(77): CController->render('create', Array)
+#8 /var/www/framework/web/actions/CInlineAction.php(49): CuentaBancariaController->actionCreate()
+#9 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#16 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cuentaBancaria/...')
+#19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/transacciones/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/transacciones/cuentaBancaria/create
+HTTP_REFERER=http://localhost/transacciones/cuentaBancaria/index
+---
+2018/03/26 15:22:43 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/cuentaBancaria/_form.php:18
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#1 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#2 /var/www/transacciones/protected/views/cuentaBancaria/create.php(16): CController->renderPartial('_form', Array)
+#3 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#4 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#6 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
+#7 /var/www/transacciones/protected/controllers/CuentaBancariaController.php(77): CController->render('create', Array)
+#8 /var/www/framework/web/actions/CInlineAction.php(49): CuentaBancariaController->actionCreate()
+#9 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#16 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
+#18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cuentaBancaria/...')
+#19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/transacciones/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/transacciones/cuentaBancaria/create
+HTTP_REFERER=http://localhost/transacciones/cuentaBancaria/index
+---
+2018/03/26 15:35:15 [error] [exception.Error] Error: Call to undefined function tipoCuenta() in /var/www/transacciones/protected/views/cuentaBancaria/view.php:33
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(126): require()
+#1 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#2 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#3 /var/www/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#4 /var/www/transacciones/protected/controllers/CuentaBancariaController.php(54): CController->render('view', Array)
+#5 [internal function]: CuentaBancariaController->actionView('1')
+#6 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CuentaBancariaController), Array)
+#7 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CuentaBancariaController), Object(ReflectionMethod), Array)
+#8 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#9 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#15 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/framework/web/CWebApplication.php(282): CController->run('view')
+#17 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cuentaBancaria/...')
+#18 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/transacciones/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/transacciones/cuentaBancaria/1
+HTTP_REFERER=http://localhost/transacciones/cuentaBancaria/create
+---
+2018/03/26 15:35:39 [error] [exception.Error] Error: Call to undefined function tipoCuenta() in /var/www/transacciones/protected/views/cuentaBancaria/view.php:33
+Stack trace:
+#0 /var/www/framework/web/CBaseController.php(126): require()
+#1 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#2 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#3 /var/www/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#4 /var/www/transacciones/protected/controllers/CuentaBancariaController.php(54): CController->render('view', Array)
+#5 [internal function]: CuentaBancariaController->actionView('1')
+#6 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CuentaBancariaController), Array)
+#7 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CuentaBancariaController), Object(ReflectionMethod), Array)
+#8 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#9 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#15 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /var/www/framework/web/CWebApplication.php(282): CController->run('view')
+#17 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('cuentaBancaria/...')
+#18 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/transacciones/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/transacciones/cuentaBancaria/1
+HTTP_REFERER=http://localhost/transacciones/cuentaBancaria/create
+---
+2018/03/26 16:19:00 [error] [exception.CException] CException: La propiedad "Producto"."idTipoProductor" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('idTipoProductor')
+#1 /var/www/framework/base/CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('idTipoProductor')
+#2 /var/www/framework/base/CComponent.php(612): eval()
+#3 /var/www/framework/zii/widgets/grid/CDataColumn.php(137): CComponent->evaluateExpression('$data->idTipoPr...', Array)
+#4 /var/www/framework/zii/widgets/grid/CGridColumn.php(151): CDataColumn->renderDataCellContent(0, Object(Producto))
+#5 /var/www/framework/zii/widgets/grid/CGridView.php(616): CGridColumn->renderDataCell(0)
+#6 /var/www/framework/zii/widgets/grid/CGridView.php(572): CGridView->renderTableRow(0)
+#7 /var/www/framework/zii/widgets/grid/CGridView.php(482): CGridView->renderTableBody()
+#8 /var/www/framework/zii/widgets/CBaseListView.php(167): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 /var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#11 /var/www/framework/zii/widgets/CBaseListView.php(135): CBaseListView->renderContent()
+#12 /var/www/framework/web/CBaseController.php(173): CBaseListView->run()
+#13 /var/www/transacciones/protected/views/producto/admin.php(30): CBaseController->widget('booster.widgets...', Array)
+#14 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#15 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#16 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#17 /var/www/framework/web/CController.php(785): CController->renderPartial('admin', Array, true)
+#18 /var/www/transacciones/protected/controllers/ProductoController.php(147): CController->render('admin', Array)
+#19 /var/www/framework/web/actions/CInlineAction.php(49): ProductoController->actionAdmin()
+#20 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#21 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#23 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#24 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#27 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 /var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#29 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/admin')
+#30 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#31 /var/www/transacciones/index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/transacciones/producto/admin
+HTTP_REFERER=http://localhost/transacciones/producto/1
+---
+2018/03/26 16:32:54 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('productoc')
+#1 /var/www/transacciones/protected/views/producto/_view.php(12): CActiveRecord->__get('productoc')
+#2 /var/www/framework/web/CBaseController.php(130): require('/var/www/transa...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, false)
+#4 /var/www/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/transa...', Array)
+#5 /var/www/framework/zii/widgets/CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /var/www/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#8 /var/www/framework/zii/widgets/CBaseListView.php(135): CBaseListView->renderContent()
+#9 /var/www/framework/web/CBaseController.php(173): CBaseListView->run()
+#10 /var/www/transacciones/protected/views/producto/index.php(17): CBaseController->widget('booster.widgets...', Array)
+#11 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#12 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#13 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#14 /var/www/framework/web/CController.php(785): CController->renderPartial('index', Array, true)
+#15 /var/www/transacciones/protected/controllers/ProductoController.php(132): CController->render('index', Array)
+#16 /var/www/framework/web/actions/CInlineAction.php(49): ProductoController->actionIndex()
+#17 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#18 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#24 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/index')
+#27 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/transacciones/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/transacciones/producto/index
+HTTP_REFERER=http://localhost/transacciones/tarifaProducto/create
+---
+2018/03/26 16:33:42 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('productoc')
+#1 /var/www/transacciones/protected/models/Producto.php(98): CActiveRecord->__get('productoc')
+#2 /var/www/transacciones/protected/views/producto/admin.php(31): Producto->search()
+#3 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#4 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#6 /var/www/framework/web/CController.php(785): CController->renderPartial('admin', Array, true)
+#7 /var/www/transacciones/protected/controllers/ProductoController.php(147): CController->render('admin', Array)
+#8 /var/www/framework/web/actions/CInlineAction.php(49): ProductoController->actionAdmin()
+#9 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#16 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/admin')
+#19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/transacciones/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/transacciones/producto/admin
+HTTP_REFERER=http://localhost/transacciones/producto/index
+---
+2018/03/26 16:33:57 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('productoc')
+#1 /var/www/transacciones/protected/models/Producto.php(98): CActiveRecord->__get('productoc')
+#2 /var/www/transacciones/protected/views/producto/admin.php(31): Producto->search()
+#3 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#4 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#6 /var/www/framework/web/CController.php(785): CController->renderPartial('admin', Array, true)
+#7 /var/www/transacciones/protected/controllers/ProductoController.php(147): CController->render('admin', Array)
+#8 /var/www/framework/web/actions/CInlineAction.php(49): ProductoController->actionAdmin()
+#9 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#16 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/admin')
+#19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/transacciones/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/transacciones/producto/admin
+HTTP_REFERER=http://localhost/transacciones/producto/index
+---
+2018/03/26 16:56:12 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '03/01/2018' for column 'fecha_operacion' at row 1. La sentencia SQL ejecutada fue: INSERT INTO `operacion` (`id_tipo_operacion`, `id_pais`, `monto_operacion`, `monto_cierre`, `id_moneda_origen`, `id_moneda_destino`, `fecha_operacion`, `id_cuenta_entrada`, `id_cuenta_salida`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in /var/www/transacciones/protected/controllers/OperacionController.php (72)
+in /var/www/transacciones/index.php (13)
+2018/03/26 16:56:12 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '03/01/2018' for column 'fecha_operacion' at row 1. The SQL statement executed was: INSERT INTO `operacion` (`id_tipo_operacion`, `id_pais`, `monto_operacion`, `monto_cierre`, `id_moneda_origen`, `id_moneda_destino`, `fecha_operacion`, `id_cuenta_entrada`, `id_cuenta_salida`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8) in /var/www/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/transacciones/protected/controllers/OperacionController.php(72): CActiveRecord->save()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): OperacionController->actionCreate()
+#4 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#5 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#11 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('operacion/creat...')
+#14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/transacciones/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/transacciones/operacion/create
+HTTP_REFERER=http://localhost/transacciones/operacion/create
+---
+2018/03/26 17:09:41 [error] [exception.CException] CException: La propiedad "CuentaBancaria"."cuenta_bancaria" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('cuenta_bancaria')
+#1 /var/www/transacciones/protected/views/operacion/view.php(59): CActiveRecord->__get('cuenta_bancaria')
+#2 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#4 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/CController.php(785): CController->renderPartial('view', Array, true)
+#6 /var/www/transacciones/protected/controllers/OperacionController.php(54): CController->render('view', Array)
+#7 [internal function]: OperacionController->actionView('1')
+#8 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(OperacionController), Array)
+#9 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OperacionController), Object(ReflectionMethod), Array)
+#10 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#11 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#17 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('operacion/view')
+#20 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/transacciones/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/transacciones/operacion/1
+HTTP_REFERER=http://localhost/transacciones/operacion/index
+---

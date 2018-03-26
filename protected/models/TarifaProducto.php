@@ -31,7 +31,7 @@ class TarifaProducto extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_pais, estatus, id_usuario_registro, id_usuario_modifica', 'numerical', 'integerOnly'=>true),
+			array('id_pais, id_producto, estatus, id_usuario_registro, id_usuario_modifica', 'numerical', 'integerOnly'=>true),
 			array('tarifa_producto', 'length', 'max'=>10),
 			array('fecha_registro, fecha_modifica', 'safe'),
 			// The following rule is used by search().
@@ -48,6 +48,9 @@ class TarifaProducto extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'idPais' => array(self::BELONGS_TO, 'Pais', 'id_pais'),
+            'idProducto' => array(self::BELONGS_TO, 'Producto', 'id_producto'),
+            'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'estatus'),
 		);
 	}
 
@@ -57,9 +60,10 @@ class TarifaProducto extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_tarifa_producto' => 'Id Tarifa Producto',
+		    'id_producto'=>'Producto',
+			'id_tarifa_producto' => 'ID Tarifa Producto',
 			'tarifa_producto' => 'Tarifa Producto',
-			'id_pais' => 'Id Pais',
+			'id_pais' => 'País',
 			'estatus' => 'Estatus',
 			'id_usuario_registro' => 'Id Usuario Registro',
 			'fecha_registro' => 'Fecha Registro',

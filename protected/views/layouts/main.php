@@ -23,7 +23,10 @@ __('Subscription');
 
 /****************/
 ?>
-<?php /* @var $this Controller */ ?>
+<?php
+
+
+/* @var $this Controller */ ?>
 <!DOCTYPE html>
 <html>
   <head>

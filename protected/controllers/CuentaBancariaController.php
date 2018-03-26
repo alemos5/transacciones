@@ -59,43 +59,51 @@ $this->render('view',array(
 * Creates a new model.
 * If creation is successful, the browser will be redirected to the 'view' page.
 */
-public function actionCreate()
-{
-$model=new CuentaBancaria;
+    public function actionCreate()
+    {
+        $model=new CuentaBancaria;
 
-// Uncomment the following line if AJAX validation is needed
-// $this->performAjaxValidation($model);
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
 
-if(isset($_POST['CuentaBancaria']))
-{
-$model->attributes=$_POST['CuentaBancaria'];
-if($model->save())
-$this->redirect(array('view','id'=>$model->id_cuenta_bancaria));
-}
+        if(isset($_POST['CuentaBancaria']))
+        {
+            $model->attributes=$_POST['CuentaBancaria'];
+            $model->id_usuario_registro = Yii::app()->user->id_usuario_sistema;
+            $model->fecha_registro = date('Y-m-d H:i:s');
+            $banco = Banco::model()->find('id_banco ='.$model->id_banco);
+            $model->id_pais = $banco->id_pais;
+            if($model->save())
+            $this->redirect(array('view','id'=>$model->id_cuenta_bancaria));
+        }
 
-$this->render('create',array(
-'model'=>$model,
-));
-}
+        $this->render('create',array(
+        'model'=>$model,
+        ));
+    }
 
 /**
 * Updates a particular model.
 * If update is successful, the browser will be redirected to the 'view' page.
 * @param integer $id the ID of the model to be updated
 */
-public function actionUpdate($id)
-{
-$model=$this->loadModel($id);
+    public function actionUpdate($id)
+    {
+        $model=$this->loadModel($id);
 
-// Uncomment the following line if AJAX validation is needed
-// $this->performAjaxValidation($model);
+        // Uncomment the following line if AJAX validation is needed
+        // $this->performAjaxValidation($model);
 
-if(isset($_POST['CuentaBancaria']))
-{
-$model->attributes=$_POST['CuentaBancaria'];
-if($model->save())
-$this->redirect(array('view','id'=>$model->id_cuenta_bancaria));
-}
+        if(isset($_POST['CuentaBancaria']))
+        {
+            $model->attributes=$_POST['CuentaBancaria'];
+            $model->id_usuario_modificacion = Yii::app()->user->id_usuario_sistema;
+            $model->fecha_modificacion = date('Y-m-d H:i:s');
+            $banco = Banco::model()->find('id_banco ='.$model->id_banco);
+            $model->id_pais = $banco->id_pais;
+            if($model->save())
+            $this->redirect(array('view','id'=>$model->id_cuenta_bancaria));
+    }
 
 $this->render('update',array(
 'model'=>$model,

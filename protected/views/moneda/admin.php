@@ -34,7 +34,13 @@ return false;
     		'id_moneda',
 		'moneda',
 		'alias',
-		'estatus',
+		//'estatus',
+        array(
+        'filter'=>CHtml::listData(Estatus::model()->findAll(),'estatus','estatus_titulo'),
+        'name'=>'estatus',
+        'type'=>'raw',
+        'value'=>'$data->idEstatus->estatus_titulo',
+    ),
     array(
     'class'=>'booster.widgets.TbButtonColumn',
     ),

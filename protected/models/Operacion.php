@@ -44,7 +44,7 @@ class Operacion extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_tipo_operacion, id_pais, id_moneda_origen, id_moneda_destino, id_producto, id_cuenta_salida, id_cuenta_entrada, id_usuario_registro, id_usuario_modifica', 'numerical', 'integerOnly'=>true),
+			array('id_tipo_operacion, estatus, id_pais, id_moneda_origen, id_moneda_destino, id_producto, id_cuenta_salida, id_cuenta_entrada, id_usuario_registro, id_usuario_modifica', 'numerical', 'integerOnly'=>true),
 			array('code_operacion', 'length', 'max'=>45),
 			array('monto_operacion, monto_cierre, monto_oficial, porcentaje_oficial, monto_ganancia, porcentaje_ganancia, tarifa', 'length', 'max'=>10),
 			array('fecha_operacion, fecha_registro, fecha_modifica', 'safe'),
@@ -62,6 +62,14 @@ class Operacion extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'idPais' => array(self::BELONGS_TO, 'Pais', 'id_pais'),
+            'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'estatus'),
+            'idMonedaOrigen' => array(self::BELONGS_TO, 'Moneda', 'id_moneda_origen'),
+            'idMonedaDestino' => array(self::BELONGS_TO, 'Moneda', 'id_moneda_destino'),
+            'idProducto' => array(self::BELONGS_TO, 'Producto', 'id_producto'),
+            'idCuentaEntrada' => array(self::BELONGS_TO, 'CuentaBancaria', 'id_cuenta_entrada'),
+            'idCuentaSalida' => array(self::BELONGS_TO, 'CuentaBancaria', 'id_cuenta_salida'),
+            'idTipoProducto' => array(self::BELONGS_TO, 'TipoProducto', 'id_tipo_operacion'),
 		);
 	}
 
@@ -73,25 +81,26 @@ class Operacion extends CActiveRecord
 		return array(
 			'id_operacion' => 'Id Operacion',
 			'code_operacion' => 'Code Operacion',
-			'id_tipo_operacion' => 'Id Tipo Operacion',
-			'id_pais' => 'Id Pais',
+			'id_tipo_operacion' => 'Tipo Operacion',
+			'id_pais' => 'País',
 			'monto_operacion' => 'Monto Operacion',
-			'id_moneda_origen' => 'Id Moneda Origen',
-			'id_moneda_destino' => 'Id Moneda Destino',
+			'id_moneda_origen' => 'Moneda Origen',
+			'id_moneda_destino' => 'Moneda Destino',
 			'monto_cierre' => 'Monto Cierre',
-			'fecha_operacion' => 'Fecha Operacion',
+			'fecha_operacion' => 'Fecha Operación',
 			'monto_oficial' => 'Monto Oficial',
 			'porcentaje_oficial' => 'Porcentaje Oficial',
 			'monto_ganancia' => 'Monto Ganancia',
 			'porcentaje_ganancia' => 'Porcentaje Ganancia',
-			'id_producto' => 'Id Producto',
+			'id_producto' => 'Producto',
 			'tarifa' => 'Tarifa',
-			'id_cuenta_salida' => 'Id Cuenta Salida',
-			'id_cuenta_entrada' => 'Id Cuenta Entrada',
+			'id_cuenta_salida' => 'Cuenta bancaria Salida',
+			'id_cuenta_entrada' => 'Cuenta bancaria Entrada',
 			'id_usuario_registro' => 'Id Usuario Registro',
 			'fecha_registro' => 'Fecha Registro',
 			'id_usuario_modifica' => 'Id Usuario Modifica',
 			'fecha_modifica' => 'Fecha Modifica',
+            'estatus' => 'Estatus',
 		);
 	}
 
@@ -133,7 +142,8 @@ class Operacion extends CActiveRecord
 		$criteria->compare('id_usuario_registro',$this->id_usuario_registro);
 		$criteria->compare('fecha_registro',$this->fecha_registro,true);
 		$criteria->compare('id_usuario_modifica',$this->id_usuario_modifica);
-		$criteria->compare('fecha_modifica',$this->fecha_modifica,true);
+        $criteria->compare('fecha_modifica',$this->fecha_modifica,true);
+        $criteria->compare('estatus',$this->estatus,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

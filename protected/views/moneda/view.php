@@ -22,7 +22,11 @@ array('label'=>'Administración de Moneda','url'=>array('admin')),
     		'id_moneda',
 		'moneda',
 		'alias',
-		'estatus',
+		//'estatus',
+        array(
+            'label'=>'Estatus:',
+            'value'=>$model->idEstatus->estatus_titulo,
+        ),
     ),
     )); ?>
 </div>

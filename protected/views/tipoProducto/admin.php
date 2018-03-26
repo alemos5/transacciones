@@ -31,9 +31,15 @@ return false;
     'dataProvider'=>$model->search(),
     'filter'=>$model,
     'columns'=>array(
-    		'id_tipo_producto',
+    		//'id_tipo_producto',
 		'tipo_producto',
-		'estatus',
+		//'estatus',
+        array(
+            'filter'=>CHtml::listData(Estatus::model()->findAll(),'estatus','estatus_titulo'),
+            'name'=>'estatus',
+            'type'=>'raw',
+            'value'=>'$data->idEstatus->estatus_titulo',
+        ),
     array(
     'class'=>'booster.widgets.TbButtonColumn',
     ),

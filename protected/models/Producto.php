@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'producto':
  * @property integer $id_producto
  * @property integer $id_tipo_producto
- * @property string $productoc
+ * @property string $producto
  * @property string $descripcion
  * @property integer $estatus
  * @property integer $id_usuario_registro
@@ -34,7 +34,7 @@ class Producto extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id_tipo_producto, estatus, id_usuario_registro, id_usuario_modifica', 'numerical', 'integerOnly'=>true),
-			array('productoc', 'length', 'max'=>250),
+			array('producto', 'length', 'max'=>250),
 			array('img', 'length', 'max'=>145),
 			array('descripcion, fecha_registro, fecha_modifica', 'safe'),
 			// The following rule is used by search().
@@ -51,6 +51,8 @@ class Producto extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'idTipoProducto' => array(self::BELONGS_TO, 'TipoProducto', 'id_tipo_producto'),
+            'idEstatus' => array(self::BELONGS_TO, 'Estatus', 'estatus'),
 		);
 	}
 
@@ -61,9 +63,9 @@ class Producto extends CActiveRecord
 	{
 		return array(
 			'id_producto' => 'Id Producto',
-			'id_tipo_producto' => 'Id Tipo Producto',
-			'productoc' => 'Productoc',
-			'descripcion' => 'Descripcion',
+			'id_tipo_producto' => 'Tipo Producto',
+			'productoc' => 'Producto',
+			'descripcion' => 'Descripción',
 			'estatus' => 'Estatus',
 			'id_usuario_registro' => 'Id Usuario Registro',
 			'fecha_registro' => 'Fecha Registro',
@@ -93,7 +95,7 @@ class Producto extends CActiveRecord
 
 		$criteria->compare('id_producto',$this->id_producto);
 		$criteria->compare('id_tipo_producto',$this->id_tipo_producto);
-		$criteria->compare('productoc',$this->productoc,true);
+		$criteria->compare('producto',$this->producto,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('estatus',$this->estatus);
 		$criteria->compare('id_usuario_registro',$this->id_usuario_registro);

@@ -7,7 +7,7 @@
 
 		<?php echo $form->textFieldGroup($model,'id_tipo_producto',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5')))); ?>
 
-		<?php echo $form->textFieldGroup($model,'productoc',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>250)))); ?>
+		<?php echo $form->textFieldGroup($model,'producto',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>250)))); ?>
 
 		<?php echo $form->textAreaGroup($model,'descripcion', array('widgetOptions'=>array('htmlOptions'=>array('rows'=>6, 'cols'=>50, 'class'=>'span8')))); ?>
 

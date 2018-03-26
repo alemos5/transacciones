@@ -1,6 +1,6 @@
 <div class="view">
 
-		<b><?php echo CHtml::encode($data->getAttributeLabel('id_cuenta_bancaria')); ?>:</b>
+    <b><?php echo CHtml::encode($data->getAttributeLabel('id_cuenta_bancaria')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id_cuenta_bancaria),array('view','id'=>$data->id_cuenta_bancaria)); ?>
 	<br />
 
@@ -9,11 +9,11 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_banco')); ?>:</b>
-	<?php echo CHtml::encode($data->id_banco); ?>
+	<?php echo CHtml::encode($data->idBanco->banco); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo_cunta')); ?>:</b>
-	<?php echo CHtml::encode($data->tipo_cunta); ?>
+	<?php echo CHtml::encode(tipoCuenta($data->tipo_cunta)); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('cbu')); ?>:</b>
@@ -25,8 +25,16 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo_documento')); ?>:</b>
-	<?php echo CHtml::encode($data->tipo_documento); ?>
+	<?php echo CHtml::encode(tipoDocumento($data->tipo_documento)); ?>
 	<br />
+
+    <b><?php echo CHtml::encode($data->getAttributeLabel('documentacion')); ?>:</b>
+    <?php echo CHtml::encode($data->documentacion); ?>
+    <br />
+
+    <b><?php echo CHtml::encode($data->getAttributeLabel('estatus')); ?>:</b>
+    <?php echo CHtml::encode($data->idEstatus->estatus_titulo); ?>
+    <br />
 
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('documentacion')); ?>:</b>

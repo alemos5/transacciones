@@ -19,11 +19,19 @@ array('label'=>'Administración de Banco','url'=>array('admin')),
     <?php $this->widget('booster.widgets.TbDetailView',array(
     'data'=>$model,
     'attributes'=>array(
-    		'id_banco',
-		'id_pais',
+    		//'id_banco',
+        array(
+            'label'=>'País:',
+            'value'=>$model->idPais->pais,
+        ),
+		//'id_pais',
 		'banco',
 		'siglas',
-		'estatus',
+		//'estatus',
+        array(
+            'label'=>'Estatus:',
+            'value'=>$model->idEstatus->estatus_titulo,
+        ),
     ),
     )); ?>
 </div>

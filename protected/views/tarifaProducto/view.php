@@ -19,14 +19,26 @@ array('label'=>'Administración de TarifaProducto','url'=>array('admin')),
     <?php $this->widget('booster.widgets.TbDetailView',array(
     'data'=>$model,
     'attributes'=>array(
-    		'id_tarifa_producto',
+        //'id_tarifa_producto',
+        array(
+            'label'=>'País:',
+            'value'=>$model->idPais->pais,
+        ),
+        array(
+            'label'=>'Producto:',
+            'value'=>$model->idProducto->producto,
+        ),
 		'tarifa_producto',
-		'id_pais',
-		'estatus',
-		'id_usuario_registro',
-		'fecha_registro',
-		'id_usuario_modifica',
-		'fecha_modifica',
+        array(
+            'label'=>'Estatus:',
+            'value'=>$model->idEstatus->estatus_titulo,
+        ),
+		//'id_pais',
+		//'estatus',
+        //'id_usuario_registro',
+        //'fecha_registro',
+        //'id_usuario_modifica',
+        //'fecha_modifica',
     ),
     )); ?>
 </div>
