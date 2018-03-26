@@ -4956,3 +4956,47 @@ Stack trace:
 REQUEST_URI=/transacciones/operacion/1
 HTTP_REFERER=http://localhost/transacciones/operacion/index
 ---
+2018/03/26 20:53:39 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in /var/www/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/framework/web/CController.php(273): CController->missingAction('site')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/transacciones/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/transacciones/site/site/login
+HTTP_REFERER=http://localhost/transacciones/tipoProducto/index
+---
+2018/03/26 20:53:43 [error] [exception.CException] CException: La propiedad "WebUser"."img" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/framework/web/auth/CWebUser.php(146): CComponent->__get('img')
+#1 /var/www/transacciones/protected/views/layouts/main.php(287): CWebUser->__get('img')
+#2 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#4 /var/www/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/transa...', Array, true)
+#5 /var/www/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="mainme...')
+#6 /var/www/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="mainme...')
+#7 /var/www/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /var/www/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /var/www/transacciones/protected/views/layouts/column2.php(20): CBaseController->endContent()
+#10 /var/www/framework/web/CBaseController.php(126): require('/var/www/transa...')
+#11 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/transa...', Array, true)
+#12 /var/www/framework/web/CController.php(787): CBaseController->renderFile('/var/www/transa...', Array, true)
+#13 /var/www/transacciones/protected/controllers/TipoProductoController.php(132): CController->render('index', Array)
+#14 /var/www/framework/web/actions/CInlineAction.php(49): TipoProductoController->actionIndex()
+#15 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
+#16 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /var/www/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#19 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /var/www/framework/web/CController.php(294): CFilterChain->run()
+#22 /var/www/framework/web/CController.php(268): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/framework/web/CWebApplication.php(282): CController->run('index')
+#24 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('tipoProducto/in...')
+#25 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /var/www/transacciones/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/transacciones/tipoProducto/index
+HTTP_REFERER=http://localhost/transacciones/tarifaProducto/update/1
+---

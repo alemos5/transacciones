@@ -25,25 +25,24 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-12 col-md-12">
+    <div class="col-sm-12 col-md-3">
         <?php echo $form->textFieldGroup($model,'monto_operacion',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>10)))); ?>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <?php $data = CHtml::listData(Moneda::model()->findAll(), 'id_moneda', 'moneda');
+        echo $form->dropDownListGroup($model,'id_moneda_origen',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5', 'onchange'=>'FindCiudad(this.value)'), 'data'=>array(''=>__('Select...'))+$data))); ?>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <?php $data = CHtml::listData(Moneda::model()->findAll(), 'id_moneda', 'moneda');
+        echo $form->dropDownListGroup($model,'id_moneda_destino',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5', 'onchange'=>'calcularCobro(this.value)'), 'data'=>array(''=>__('Select...'))+$data))); ?>
+    </div>
+    <div class="col-sm-12 col-md-3">
+        <?php echo $form->textFieldGroup($model,'monto_ganancia',array('widgetOptions'=>array('htmlOptions'=>array('readonly'=>"readonly", 'class'=>'span5','maxlength'=>15)), 'labelOptions'=>array('label'=>'Monto a cobrar'))); ?>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12 col-md-12">
         <?php echo $form->textFieldGroup($model,'monto_cierre',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5','maxlength'=>10)))); ?>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-12 col-md-12">
-        <?php $data = CHtml::listData(Moneda::model()->findAll(), 'id_moneda', 'moneda');
-        echo $form->dropDownListGroup($model,'id_moneda_origen',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5', 'onchange'=>'FindCiudad(this.value)'), 'data'=>array(''=>__('Select...'))+$data))); ?>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-12 col-md-12">
-        <?php $data = CHtml::listData(Moneda::model()->findAll(), 'id_moneda', 'moneda');
-        echo $form->dropDownListGroup($model,'id_moneda_destino',array('widgetOptions'=>array('htmlOptions'=>array('class'=>'span5', 'onchange'=>'FindCiudad(this.value)'), 'data'=>array(''=>__('Select...'))+$data))); ?>
     </div>
 </div>
 
@@ -105,3 +104,12 @@
 </div>
 
 <?php $this->endWidget(); ?>
+
+<script>
+    function calcularCobro(idMoneda){
+        var monto = $('#Operacion_monto_operacion').val();
+        var moneda_entrada = $('#Operacion_id_moneda_origen').val();
+        var tipo_operacion = $('#Operacion_id_tipo_operacion').val();
+        var id_pais =  $('#Operacion_id_pais').val();
+    }
+</script>
