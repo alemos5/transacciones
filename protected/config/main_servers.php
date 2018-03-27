@@ -113,7 +113,7 @@ return array(
             'transportOptions' => array(
                 'host' => 'smtp.gmail.com',
                 'encryption' => 'ssl',
-                'username' => 'controlcourier@telocomproenusa.com',
+                'username' => 'transacciones@telocomproenusa.com',
                 'password' => '4c2342k44',
                 'port' => 465,
             ),

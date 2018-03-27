@@ -88,9 +88,9 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
                     array(
                         'label' => '<span style="line-height: 3.6">'.substr(strtoupper(Yii::app()->user->_id),0,20).'...</span>',
                     ),
-                    /*array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
-                        array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
-                        array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
+                    /*array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
+                        array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
+                        array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
                         /*array('label' => '<img src="images/idioma/frances.png" alt="" width="20px"> Frances','icon'=>'file','url' => array('/usuario/Idioma/3')),*/
                     //)),
                     array('label' => '<span class="user-menu glyphicon glyphicon-user"></span>', 'url' => '#','items'=> array(
@@ -135,9 +135,9 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
                                 array(
                                     'label' => '<span style="line-height: 3.6">'.substr(strtoupper(Yii::app()->user->_id),0,20).'...</span>',
                                 ),
-                                array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
+                                array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
                                     /*array('label' => '<img src="images/idioma/frances.png" alt="" width="20px"> Frances','icon'=>'file','url' => array('/usuario/Idioma/3')),*/
                                 )),
                                 array('label' => '<span class="user-menu glyphicon glyphicon-user"></span>', 'url' => '#','items'=> array(
@@ -184,9 +184,9 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
                                 array(
                                     'label' => '<span style="line-height: 3.6">'.substr(strtoupper(Yii::app()->user->_id),0,20).'...</span>',
                                 ),
-                                array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
+                                array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
                                     /*array('label' => '<img src="images/idioma/frances.png" alt="" width="20px"> Frances','icon'=>'file','url' => array('/usuario/Idioma/3')),*/
                                 )),
                                                 array('label' => '<span class="user-menu glyphicon glyphicon-user"></span>', 'url' => '#','items'=> array(
@@ -230,9 +230,9 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
                                 array(
                                     'label' => '<span style="line-height: 3.6">'.substr(strtoupper(Yii::app()->user->_id),0,20).'...</span>',
                                 ),
-                                array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
-                                    array('label' => '<img src="https://telocomproenusa.com/controlcourier/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
+                                array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/idioma.png" alt="" width="20px">', 'url' => '#','items'=> array(
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/english.png" alt="" width="20px"> English','icon'=>'file','url' => array('/usuario/Idioma/1')),
+                                    array('label' => '<img src="https://telocomproenusa.com/transacciones/images/idioma/espanol.png" alt="" width="20px"> Español','icon'=>'file','url' => array('/usuario/Idioma/2')),
                                     /*array('label' => '<img src="images/idioma/frances.png" alt="" width="20px"> Frances','icon'=>'file','url' => array('/usuario/Idioma/3')),*/
                                 )),
                                                 array('label' => '<span class="user-menu glyphicon glyphicon-user"></span>', 'url' => '#','items'=> array(
@@ -263,7 +263,7 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
 				
                                 <div id="<?php if(!Yii::app()->user->isGuest): echo 'herramienta'; else: echo 'disable';  endif ?>">
                                     <?php
-                                        $host= $_SERVER["HTTP_HOST"]."/controlcourier";
+                                        $host= $_SERVER["HTTP_HOST"]."/transacciones";
                                         $url= $_SERVER["REQUEST_URI"];
                                                                                 
 

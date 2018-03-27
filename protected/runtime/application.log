@@ -3479,7 +3479,7 @@ Stack trace:
 #5 /var/www/framework/db/ar/CActiveRecord.php(2361): CActiveRecord->getDbConnection()
 #6 /var/www/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Usuario))
 #7 /var/www/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
-#8 /var/www/controlcourier/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
+#8 /var/www/transacciones/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
 #9 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
 #10 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #11 /var/www/framework/web/CController.php(289): CController->runAction(Object(CInlineAction))
@@ -3487,16 +3487,16 @@ Stack trace:
 #13 /var/www/framework/web/CWebApplication.php(282): CController->run('login')
 #14 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
 #15 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#16 /var/www/controlcourier/index.php(13): CApplication->run()
+#16 /var/www/transacciones/index.php(13): CApplication->run()
 #17 {main}
-REQUEST_URI=/controlcourier/site/login
+REQUEST_URI=/transacciones/site/login
 HTTP_REFERER=http://localhost/
 ---
 2018/02/18 10:05:37 [error] [exception.CException] CException: La propiedad "CWebApplication"."mail" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
 #0 /var/www/framework/base/CModule.php(105): CComponent->__get('mail')
-#1 /var/www/controlcourier/protected/extensions/yii-mail/YiiMailMessage.php(112): CModule->__get('mail')
-#2 /var/www/controlcourier/protected/controllers/UsuarioController.php(506): YiiMailMessage->__construct()
+#1 /var/www/transacciones/protected/extensions/yii-mail/YiiMailMessage.php(112): CModule->__get('mail')
+#2 /var/www/transacciones/protected/controllers/UsuarioController.php(506): YiiMailMessage->__construct()
 #3 /var/www/framework/web/actions/CInlineAction.php(49): UsuarioController->actionRegistarUsuario()
 #4 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #5 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3509,10 +3509,10 @@ Stack trace:
 #12 /var/www/framework/web/CWebApplication.php(282): CController->run('RegistarUsuario')
 #13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/Regista...')
 #14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#15 /var/www/controlcourier/index.php(13): CApplication->run()
+#15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
-REQUEST_URI=/controlcourier/usuario/RegistarUsuario
-HTTP_REFERER=http://localhost/controlcourier/site/login
+REQUEST_URI=/transacciones/usuario/RegistarUsuario
+HTTP_REFERER=http://localhost/transacciones/site/login
 ---
 2018/02/20 16:52:20 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'telocomp_env_ve'@'localhost' (using password: YES) in /var/www/framework/db/CDbConnection.php:382
 Stack trace:
@@ -3524,7 +3524,7 @@ Stack trace:
 #5 /var/www/framework/db/ar/CActiveRecord.php(2361): CActiveRecord->getDbConnection()
 #6 /var/www/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Usuario))
 #7 /var/www/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
-#8 /var/www/controlcourier/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
+#8 /var/www/transacciones/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
 #9 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
 #10 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #11 /var/www/framework/web/CController.php(289): CController->runAction(Object(CInlineAction))
@@ -3532,9 +3532,9 @@ Stack trace:
 #13 /var/www/framework/web/CWebApplication.php(282): CController->run('login')
 #14 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
 #15 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#16 /var/www/controlcourier/index.php(13): CApplication->run()
+#16 /var/www/transacciones/index.php(13): CApplication->run()
 #17 {main}
-REQUEST_URI=/controlcourier/site/login
+REQUEST_URI=/transacciones/site/login
 ---
 2018/02/20 16:59:09 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'telocomp_env_ve'@'localhost' (using password: YES) in /var/www/framework/db/CDbConnection.php:382
 Stack trace:
@@ -3546,7 +3546,7 @@ Stack trace:
 #5 /var/www/framework/db/ar/CActiveRecord.php(2361): CActiveRecord->getDbConnection()
 #6 /var/www/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Usuario))
 #7 /var/www/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
-#8 /var/www/controlcourier/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
+#8 /var/www/transacciones/protected/controllers/SiteController.php(524): CActiveRecord->__construct()
 #9 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
 #10 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #11 /var/www/framework/web/CController.php(289): CController->runAction(Object(CInlineAction))
@@ -3554,18 +3554,18 @@ Stack trace:
 #13 /var/www/framework/web/CWebApplication.php(282): CController->run('login')
 #14 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
 #15 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#16 /var/www/controlcourier/index.php(13): CApplication->run()
+#16 /var/www/transacciones/index.php(13): CApplication->run()
 #17 {main}
-REQUEST_URI=/controlcourier/site/login
+REQUEST_URI=/transacciones/site/login
 ---
 2018/02/28 14:55:19 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ware_reciept' cannot be null. La sentencia SQL ejecutada fue: INSERT INTO `ordenes` (`code_cliente`, `tracking`, `courier`, `nombre_cliente`, `direccion_cliente`, `ciudad`, `telefono`, `tienda`, `peli`, `doc`, `alto`, `ancho`, `largo`, `peso`, `cant`, `descripcion`, `costo`, `numero_guia`, `env_email`, `id_ope`, `status`, `instrucciones`, `orden`, `fecha`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23).
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (355)
-in /var/www/controlcourier/index.php (13)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (355)
+in /var/www/transacciones/index.php (13)
 2018/02/28 14:55:19 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ware_reciept' cannot be null. The SQL statement executed was: INSERT INTO `ordenes` (`code_cliente`, `tracking`, `courier`, `nombre_cliente`, `direccion_cliente`, `ciudad`, `telefono`, `tienda`, `peli`, `doc`, `alto`, `ancho`, `largo`, `peso`, `cant`, `descripcion`, `costo`, `numero_guia`, `env_email`, `id_ope`, `status`, `instrucciones`, `orden`, `fecha`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23) in /var/www/framework/db/CDbCommand.php:358
 Stack trace:
 #0 /var/www/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
 #1 /var/www/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
-#2 /var/www/controlcourier/protected/controllers/OrdenesController.php(355): CActiveRecord->save()
+#2 /var/www/transacciones/protected/controllers/OrdenesController.php(355): CActiveRecord->save()
 #3 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #4 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #5 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3578,10 +3578,10 @@ Stack trace:
 #12 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#15 /var/www/controlcourier/index.php(13): CApplication->run()
+#15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes/create
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes/create
 ---
 2018/02/28 19:41:48 [error] [exception.CException] CException: La propiedad "Ordenes"."costo_env" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -3590,19 +3590,19 @@ Stack trace:
 #2 /var/www/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(Ordenes), 'costo_env')
 #3 /var/www/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(Ordenes), 'costo_env', Array)
 #4 /var/www/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(Ordenes), 'costo_env', Array)
-#5 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(1293): CActiveForm->textField(Object(Ordenes), 'costo_env', Array)
-#6 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(1152): TbActiveForm->verticalGroup(Array, Object(Ordenes), 'costo_env', Array)
-#7 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(389): TbActiveForm->customFieldGroupInternal(Array, Object(Ordenes), 'costo_env', Array)
-#8 /var/www/controlcourier/protected/views/ordenes/_form.php(157): TbActiveForm->textFieldGroup(Object(Ordenes), 'costo_env', Array)
+#5 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(1293): CActiveForm->textField(Object(Ordenes), 'costo_env', Array)
+#6 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(1152): TbActiveForm->verticalGroup(Array, Object(Ordenes), 'costo_env', Array)
+#7 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(389): TbActiveForm->customFieldGroupInternal(Array, Object(Ordenes), 'costo_env', Array)
+#8 /var/www/transacciones/protected/views/ordenes/_form.php(157): TbActiveForm->textFieldGroup(Object(Ordenes), 'costo_env', Array)
 #9 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #10 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #11 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#12 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#12 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #13 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #14 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #15 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #16 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#17 /var/www/controlcourier/protected/controllers/OrdenesController.php(509): CController->render('create', Array)
+#17 /var/www/transacciones/protected/controllers/OrdenesController.php(509): CController->render('create', Array)
 #18 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #19 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #20 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3615,19 +3615,19 @@ Stack trace:
 #27 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #28 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #29 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#30 /var/www/controlcourier/index.php(13): CApplication->run()
+#30 /var/www/transacciones/index.php(13): CApplication->run()
 #31 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes/admin
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes/admin
 ---
 2018/03/05 11:34:09 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1364 Field 'peli' doesn't have a default value. La sentencia SQL ejecutada fue: INSERT INTO `ordenes` (`code_cliente`, `tracking`, `courier`, `nombre_cliente`, `direccion_cliente`, `ciudad`, `telefono`, `tienda`, `alto`, `ancho`, `largo`, `peso`, `descripcion`, `costo`, `cost_env`, `numero_guia`, `env_email`, `id_ope`, `status`, `instrucciones`, `orden`, `fecha`, `cant`, `ware_reciept`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23).
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (355)
-in /var/www/controlcourier/index.php (13)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (355)
+in /var/www/transacciones/index.php (13)
 2018/03/05 11:34:09 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1364 Field 'peli' doesn't have a default value. The SQL statement executed was: INSERT INTO `ordenes` (`code_cliente`, `tracking`, `courier`, `nombre_cliente`, `direccion_cliente`, `ciudad`, `telefono`, `tienda`, `alto`, `ancho`, `largo`, `peso`, `descripcion`, `costo`, `cost_env`, `numero_guia`, `env_email`, `id_ope`, `status`, `instrucciones`, `orden`, `fecha`, `cant`, `ware_reciept`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23) in /var/www/framework/db/CDbCommand.php:358
 Stack trace:
 #0 /var/www/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
 #1 /var/www/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
-#2 /var/www/controlcourier/protected/controllers/OrdenesController.php(355): CActiveRecord->save()
+#2 /var/www/transacciones/protected/controllers/OrdenesController.php(355): CActiveRecord->save()
 #3 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #4 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #5 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3640,21 +3640,21 @@ Stack trace:
 #12 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#15 /var/www/controlcourier/index.php(13): CApplication->run()
+#15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes/create
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes/create
 ---
-2018/03/12 15:21:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/controlcourier/protected/views/tarifaEnvioPais/_form.php:17
+2018/03/12 15:21:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/tarifaEnvioPais/_form.php:17
 Stack trace:
 #0 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #1 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#2 /var/www/controlcourier/protected/views/tarifaEnvioPais/create.php(15): CController->renderPartial('_form', Array)
+#2 /var/www/transacciones/protected/views/tarifaEnvioPais/create.php(15): CController->renderPartial('_form', Array)
 #3 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #4 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #5 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#7 /var/www/controlcourier/protected/controllers/TarifaEnvioPaisController.php(77): CController->render('create', Array)
+#7 /var/www/transacciones/protected/controllers/TarifaEnvioPaisController.php(77): CController->render('create', Array)
 #8 /var/www/framework/web/actions/CInlineAction.php(49): TarifaEnvioPaisController->actionCreate()
 #9 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #10 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3667,29 +3667,29 @@ Stack trace:
 #17 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('tarifaEnvioPais...')
 #19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#20 /var/www/controlcourier/index.php(13): CApplication->run()
+#20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
-REQUEST_URI=/controlcourier/tarifaEnvioPais/create
-HTTP_REFERER=http://localhost/controlcourier/tarifaEnvioPais/index
+REQUEST_URI=/transacciones/tarifaEnvioPais/create
+HTTP_REFERER=http://localhost/transacciones/tarifaEnvioPais/index
 ---
 2018/03/12 15:22:30 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/framework/web/helpers/CHtml.php:103)
 Stack trace:
 #0 /var/www/framework/web/helpers/CHtml.php(158): renderAttributes()
 #1 /var/www/framework/web/helpers/CHtml.php(1822): tag()
 #2 /var/www/framework/web/widgets/CActiveForm.php(847): activeDropDownList()
-#3 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(1293): TbActiveForm->dropDownList()
-#4 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(1152): TbActiveForm->verticalGroup()
-#5 /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php(627): TbActiveForm->customFieldGroupInternal()
-#6 /var/www/controlcourier/protected/views/tarifaEnvioPais/_form.php(17): TbActiveForm->dropDownListGroup()
+#3 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(1293): TbActiveForm->dropDownList()
+#4 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(1152): TbActiveForm->verticalGroup()
+#5 /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php(627): TbActiveForm->customFieldGroupInternal()
+#6 /var/www/transacciones/protected/views/tarifaEnvioPais/_form.php(17): TbActiveForm->dropDownListGroup()
 #7 /var/www/framework/web/CBaseController.php(126): require()
 #8 /var/www/framework/web/CBaseController.php(95): TarifaEnvioPaisController->renderInternal()
 #9 /var/www/framework/web/CController.php(872): TarifaEnvioPaisController->renderFile()
-#10 /var/www/controlcourier/protected/views/tarifaEnvioPais/create.php(15): TarifaEnvioPaisController->renderPartial()
+#10 /var/www/transacciones/protected/views/tarifaEnvioPais/create.php(15): TarifaEnvioPaisController->renderPartial()
 #11 /var/www/framework/web/CBaseController.php(126): require()
 #12 /var/www/framework/web/CBaseController.php(95): TarifaEnvioPaisController->renderInternal()
 #13 /var/www/framework/web/CController.php(872): TarifaEnvioPaisController->renderFile()
 #14 /var/www/framework/web/CController.php(785): TarifaEnvioPaisController->renderPartial()
-#15 /var/www/controlcourier/protected/controllers/TarifaEnvioPaisController.php(77): TarifaEnvioPaisController->render()
+#15 /var/www/transacciones/protected/controllers/TarifaEnvioPaisController.php(77): TarifaEnvioPaisController->render()
 #16 /var/www/framework/web/actions/CInlineAction.php(49): TarifaEnvioPaisController->actionCreate()
 #17 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams()
 #18 /var/www/framework/web/filters/CFilterChain.php(133): TarifaEnvioPaisController->runAction()
@@ -3702,24 +3702,24 @@ Stack trace:
 #25 /var/www/framework/web/CWebApplication.php(282): TarifaEnvioPaisController->run()
 #26 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
 #27 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#28 /var/www/controlcourier/index.php(13): CWebApplication->run()
-REQUEST_URI=/controlcourier/tarifaEnvioPais/create
-in /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php (1293)
-in /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php (1152)
-in /var/www/controlcourier/protected/extensions/booster/widgets/TbActiveForm.php (627)
+#28 /var/www/transacciones/index.php(13): CWebApplication->run()
+REQUEST_URI=/transacciones/tarifaEnvioPais/create
+in /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php (1293)
+in /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php (1152)
+in /var/www/transacciones/protected/extensions/booster/widgets/TbActiveForm.php (627)
 2018/03/12 17:11:47 [error] [exception.CException] CException: La propiedad "Usuario"."id_pais" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
 #0 /var/www/framework/db/ar/CActiveRecord.php(145): CComponent->__get('id_pais')
-#1 /var/www/controlcourier/protected/views/ordenes/_form.php(137): CActiveRecord->__get('id_pais')
+#1 /var/www/transacciones/protected/views/ordenes/_form.php(137): CActiveRecord->__get('id_pais')
 #2 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #3 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #4 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#5 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#5 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #6 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #7 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #8 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #9 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#10 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#10 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #11 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #12 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #13 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3732,30 +3732,30 @@ Stack trace:
 #20 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #21 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #22 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#23 /var/www/controlcourier/index.php(13): CApplication->run()
+#23 /var/www/transacciones/index.php(13): CApplication->run()
 #24 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
 2018/03/12 17:13:37 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'codigo_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `pais` `t` WHERE codigo_pais like "GM" LIMIT 1.
-in /var/www/controlcourier/protected/views/ordenes/_form.php (137)
-in /var/www/controlcourier/protected/views/ordenes/create.php (22)
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (510)
+in /var/www/transacciones/protected/views/ordenes/_form.php (137)
+in /var/www/transacciones/protected/views/ordenes/create.php (22)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (510)
 2018/03/12 17:13:37 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'codigo_pais' in 'where clause'. The SQL statement executed was: SELECT * FROM `pais` `t` WHERE codigo_pais like "GM" LIMIT 1 in /var/www/framework/db/CDbCommand.php:543
 Stack trace:
 #0 /var/www/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
 #1 /var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryRow()
 #2 /var/www/framework/db/ar/CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
-#3 /var/www/controlcourier/protected/views/ordenes/_form.php(137): CActiveRecord->find('codigo_pais lik...')
+#3 /var/www/transacciones/protected/views/ordenes/_form.php(137): CActiveRecord->find('codigo_pais lik...')
 #4 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #5 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#7 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#7 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #8 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #9 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #10 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #11 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#12 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#12 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #13 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #14 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #15 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3768,30 +3768,30 @@ Stack trace:
 #22 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #23 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #24 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#25 /var/www/controlcourier/index.php(13): CApplication->run()
+#25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
 2018/03/12 17:16:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55Array.
-in /var/www/controlcourier/protected/views/ordenes/_form.php (138)
-in /var/www/controlcourier/protected/views/ordenes/create.php (22)
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (510)
+in /var/www/transacciones/protected/views/ordenes/_form.php (138)
+in /var/www/transacciones/protected/views/ordenes/create.php (22)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (510)
 2018/03/12 17:16:10 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. The SQL statement executed was: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55Array in /var/www/framework/db/CDbCommand.php:543
 Stack trace:
 #0 /var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
 #1 /var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
 #2 /var/www/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
-#3 /var/www/controlcourier/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55Arra...')
+#3 /var/www/transacciones/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55Arra...')
 #4 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #5 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#7 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#7 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #8 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #9 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #10 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #11 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#12 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#12 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #13 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #14 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #15 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3804,22 +3804,22 @@ Stack trace:
 #22 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #23 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #24 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#25 /var/www/controlcourier/index.php(13): CApplication->run()
+#25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
-2018/03/12 17:16:28 [error] [exception.Error] Error: Unsupported operand types in /var/www/controlcourier/protected/views/ordenes/_form.php:138
+2018/03/12 17:16:28 [error] [exception.Error] Error: Unsupported operand types in /var/www/transacciones/protected/views/ordenes/_form.php:138
 Stack trace:
 #0 /var/www/framework/web/CBaseController.php(126): require()
 #1 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #2 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#3 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#3 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #4 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #5 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #7 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#8 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#8 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #9 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #10 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #11 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3832,30 +3832,30 @@ Stack trace:
 #18 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #19 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #20 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#21 /var/www/controlcourier/index.php(13): CApplication->run()
+#21 /var/www/transacciones/index.php(13): CApplication->run()
 #22 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
 2018/03/12 17:16:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDE BY tipo_envio ASC' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55 ORDE BY tipo_envio ASC.
-in /var/www/controlcourier/protected/views/ordenes/_form.php (138)
-in /var/www/controlcourier/protected/views/ordenes/create.php (22)
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (510)
+in /var/www/transacciones/protected/views/ordenes/_form.php (138)
+in /var/www/transacciones/protected/views/ordenes/create.php (22)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (510)
 2018/03/12 17:16:50 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDE BY tipo_envio ASC' at line 1. The SQL statement executed was: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55 ORDE BY tipo_envio ASC in /var/www/framework/db/CDbCommand.php:543
 Stack trace:
 #0 /var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
 #1 /var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
 #2 /var/www/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
-#3 /var/www/controlcourier/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55 ORD...')
+#3 /var/www/transacciones/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55 ORD...')
 #4 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #5 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#7 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#7 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #8 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #9 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #10 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #11 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#12 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#12 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #13 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #14 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #15 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3868,30 +3868,30 @@ Stack trace:
 #22 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #23 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #24 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#25 /var/www/controlcourier/index.php(13): CApplication->run()
+#25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
 2018/03/12 17:17:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55.
-in /var/www/controlcourier/protected/views/ordenes/_form.php (138)
-in /var/www/controlcourier/protected/views/ordenes/create.php (22)
-in /var/www/controlcourier/protected/controllers/OrdenesController.php (510)
+in /var/www/transacciones/protected/views/ordenes/_form.php (138)
+in /var/www/transacciones/protected/views/ordenes/create.php (22)
+in /var/www/transacciones/protected/controllers/OrdenesController.php (510)
 2018/03/12 17:17:18 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. The SQL statement executed was: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55 in /var/www/framework/db/CDbCommand.php:543
 Stack trace:
 #0 /var/www/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
 #1 /var/www/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
 #2 /var/www/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
-#3 /var/www/controlcourier/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55')
+#3 /var/www/transacciones/protected/views/ordenes/_form.php(138): CActiveRecord->findAll('id_pais =55')
 #4 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #5 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #6 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
-#7 /var/www/controlcourier/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
+#7 /var/www/transacciones/protected/views/ordenes/create.php(22): CController->renderPartial('_form', Array)
 #8 /var/www/framework/web/CBaseController.php(126): require('/var/www/contro...')
 #9 /var/www/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/contro...', Array, true)
 #10 /var/www/framework/web/CController.php(872): CBaseController->renderFile('/var/www/contro...', Array, true)
 #11 /var/www/framework/web/CController.php(785): CController->renderPartial('create', Array, true)
-#12 /var/www/controlcourier/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
+#12 /var/www/transacciones/protected/controllers/OrdenesController.php(510): CController->render('create', Array)
 #13 /var/www/framework/web/actions/CInlineAction.php(49): OrdenesController->actionCreate()
 #14 /var/www/framework/web/CController.php(311): CInlineAction->runWithParams(Array)
 #15 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
@@ -3904,10 +3904,10 @@ Stack trace:
 #22 /var/www/framework/web/CWebApplication.php(282): CController->run('create')
 #23 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('ordenes/create')
 #24 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
-#25 /var/www/controlcourier/index.php(13): CApplication->run()
+#25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
-REQUEST_URI=/controlcourier/ordenes/create
-HTTP_REFERER=http://localhost/controlcourier/ordenes
+REQUEST_URI=/transacciones/ordenes/create
+HTTP_REFERER=http://localhost/transacciones/ordenes
 ---
 2018/03/22 16:37:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inmobiliaria.clientes' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `clientes`.
 in /var/www/transacciones/protected/views/site/index.php (19)

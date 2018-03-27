@@ -79,7 +79,7 @@ $emails = Email::model()->findAll('tipo_email = 1 AND estatus = 0');
                         <td>
                             <br>
                             <center>
-                                <img src="https://telocomproenusa.com/controlcourier/images/logo.png">
+                                <img src="https://telocomproenusa.com/transacciones/images/logo.png">
                             </center>
                             <br>
                         </td>

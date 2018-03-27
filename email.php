@@ -1,3 +1,3 @@
 <?php
-    header('Location: https://telocomproenusa.com/controlcourier/email/emailTodos');
+    header('Location: https://telocomproenusa.com/transacciones/email/emailTodos');
 ?>

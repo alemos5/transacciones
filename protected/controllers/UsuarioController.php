@@ -381,7 +381,7 @@ class UsuarioController extends Controller {
                     </tr>
                     <tr><td>&nbsp;</td></tr>
                     <tr><td>&nbsp;</td></tr>
-                    <tr><td><center><img src="https://telocomproenusa.com/controlcourier/images/logo.png"></center></td></tr>
+                    <tr><td><center><img src="https://telocomproenusa.com/transacciones/images/logo.png"></center></td></tr>
                     <tr>
                             <td>
                             <style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }
@@ -398,7 +398,7 @@ class UsuarioController extends Controller {
 
 
                             <p style="margin-bottom: 0cm; line-height: 100%; text-align: center;">
-                            <br><a class="btn" href="https://telocomproenusa.com/controlcourier">'.__('Ingresar').'</a>
+                            <br><a class="btn" href="https://telocomproenusa.com/transacciones">'.__('Ingresar').'</a>
                             </p>
                             </td>
                     </tr>
@@ -554,7 +554,7 @@ class UsuarioController extends Controller {
                     </tr>
                     <tr><td>&nbsp;</td></tr>
                     <tr><td>&nbsp;</td></tr>
-                    <tr><td><center><img src="https://telocomproenusa.com/controlcourier/images/logo.png"></center></td></tr>
+                    <tr><td><center><img src="https://telocomproenusa.com/transacciones/images/logo.png"></center></td></tr>
                     <tr>
                             <td>
                             <style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }
@@ -573,7 +573,7 @@ class UsuarioController extends Controller {
                             <center>'.__('To activate your account click on the button at the bottom').'</p></center>
 
                                 <p style="margin-bottom: 0cm; line-height: 100%; text-align: center;">
-                                <br><a class="btn" href="https://telocomproenusa.com/controlcourier/usuario/activarUsuario?i='.$usuario.'">'.__('Activate user').'</a>
+                                <br><a class="btn" href="https://telocomproenusa.com/transacciones/usuario/activarUsuario?i='.$usuario.'">'.__('Activate user').'</a>
                                 </p>
                             </td>
                     </tr>
@@ -603,7 +603,7 @@ class UsuarioController extends Controller {
 
 
             $message->setBody($body,'text/html');//codificar el html de la vista
-            $message->from =('controlcourier@telocomproenusa.com'); // alias del q envia
+            $message->from =('transacciones@telocomproenusa.com'); // alias del q envia
             $message->setTo($_POST['Usuario_correo']); // a quien se le envia
             Yii::app()->mail->send($message);
 
