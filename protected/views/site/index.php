@@ -6,7 +6,7 @@
 $this->pageTitle=Yii::app()->name;
 $this->menu=array(
 array('label'=>__('My Profile'),'url'=>array('/usuario/'.Yii::app()->user->id_usuario_sistema)),
-array('label'=>__('Ordenes / consolidaciones'),'url'=>array('/usuario/ordenPersonal')),
+array('label'=>__('Operaciones'),'url'=>array('/operacion/index')),
 );
 ?>
 <span  class="ez">
